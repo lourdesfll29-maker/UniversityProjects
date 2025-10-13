@@ -1,0 +1,2797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SingWindow</class>
+ <widget class="QWidget" name="SingWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>556</width>
+    <height>609</height>
+   </rect>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::FocusPolicy::NoFocus</enum>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_11">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QWidget" name="centralwidget" native="true">
+     <property name="focusPolicy">
+      <enum>Qt::FocusPolicy::NoFocus</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_3">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QStackedWidget" name="stackedWidget">
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="a_dateOfBirth">
+         <layout class="QGridLayout" name="gridLayout_2">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QScrollArea" name="scrollArea_1">
+            <property name="minimumSize">
+             <size>
+              <width>420</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::FocusPolicy::NoFocus</enum>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::Shape::NoFrame</enum>
+            </property>
+            <property name="horizontalScrollBarPolicy">
+             <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
+            </property>
+            <property name="widgetResizable">
+             <bool>true</bool>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignCenter</set>
+            </property>
+            <widget class="QWidget" name="LW_scrollAreaWidgetContents_1">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>540</width>
+               <height>709</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>400</width>
+               <height>0</height>
+              </size>
+             </property>
+             <layout class="QGridLayout" name="gridLayout">
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item row="0" column="0">
+               <spacer name="horizontalSpacer_left">
+                <property name="orientation">
+                 <enum>Qt::Orientation::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>173</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="0" column="3">
+               <spacer name="horizontalSpacer_right">
+                <property name="orientation">
+                 <enum>Qt::Orientation::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>173</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="0" column="1">
+               <layout class="QVBoxLayout" name="verticalLayout_01">
+                <item>
+                 <spacer name="verticalSpacer_top">
+                  <property name="orientation">
+                   <enum>Qt::Orientation::Vertical</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Policy::MinimumExpanding</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QFrame" name="logInFrame">
+                  <property name="minimumSize">
+                   <size>
+                    <width>400</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>550</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>Qt::FocusPolicy::NoFocus</enum>
+                  </property>
+                  <property name="frameShape">
+                   <enum>QFrame::Shape::StyledPanel</enum>
+                  </property>
+                  <property name="frameShadow">
+                   <enum>QFrame::Shadow::Raised</enum>
+                  </property>
+                  <layout class="QVBoxLayout" name="verticalLayout_3">
+                   <property name="leftMargin">
+                    <number>30</number>
+                   </property>
+                   <property name="topMargin">
+                    <number>30</number>
+                   </property>
+                   <property name="rightMargin">
+                    <number>30</number>
+                   </property>
+                   <property name="bottomMargin">
+                    <number>30</number>
+                   </property>
+                   <item>
+                    <layout class="QVBoxLayout" name="verticalLayout_02">
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_01">
+                       <item>
+                        <widget class="QPushButton" name="a_backButton">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>40</width>
+                           <height>40</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>40</width>
+                           <height>40</height>
+                          </size>
+                         </property>
+                         <property name="sizeIncrement">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="cursor">
+                          <cursorShape>PointingHandCursor</cursorShape>
+                         </property>
+                         <property name="focusPolicy">
+                          <enum>Qt::FocusPolicy::TabFocus</enum>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                         <property name="iconSize">
+                          <size>
+                           <width>40</width>
+                           <height>40</height>
+                          </size>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <spacer name="horizontalSpacer_01">
+                         <property name="orientation">
+                          <enum>Qt::Orientation::Horizontal</enum>
+                         </property>
+                         <property name="sizeHint" stdset="0">
+                          <size>
+                           <width>40</width>
+                           <height>20</height>
+                          </size>
+                         </property>
+                        </spacer>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <widget class="QLabel" name="a_singInLabel">
+                       <property name="focusPolicy">
+                        <enum>Qt::FocusPolicy::StrongFocus</enum>
+                       </property>
+                       <property name="text">
+                        <string>Create an Account</string>
+                       </property>
+                       <property name="alignment">
+                        <set>Qt::AlignmentFlag::AlignCenter</set>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <spacer name="verticalSpacer">
+                       <property name="orientation">
+                        <enum>Qt::Orientation::Vertical</enum>
+                       </property>
+                       <property name="sizeType">
+                        <enum>QSizePolicy::Policy::Fixed</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>20</width>
+                         <height>20</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                     <item>
+                      <widget class="QFrame" name="ageErrorFrame">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="focusPolicy">
+                        <enum>Qt::FocusPolicy::ClickFocus</enum>
+                       </property>
+                       <property name="frameShape">
+                        <enum>QFrame::Shape::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Shadow::Raised</enum>
+                       </property>
+                       <layout class="QHBoxLayout" name="horizontalLayout_17">
+                        <property name="spacing">
+                         <number>20</number>
+                        </property>
+                        <property name="leftMargin">
+                         <number>20</number>
+                        </property>
+                        <property name="topMargin">
+                         <number>20</number>
+                        </property>
+                        <property name="rightMargin">
+                         <number>20</number>
+                        </property>
+                        <property name="bottomMargin">
+                         <number>20</number>
+                        </property>
+                        <item>
+                         <layout class="QVBoxLayout" name="verticalLayout_17">
+                          <item>
+                           <widget class="QLabel" name="label_7">
+                            <property name="sizePolicy">
+                             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                              <horstretch>0</horstretch>
+                              <verstretch>10</verstretch>
+                             </sizepolicy>
+                            </property>
+                            <property name="minimumSize">
+                             <size>
+                              <width>30</width>
+                              <height>30</height>
+                             </size>
+                            </property>
+                            <property name="maximumSize">
+                             <size>
+                              <width>30</width>
+                              <height>30</height>
+                             </size>
+                            </property>
+                            <property name="text">
+                             <string/>
+                            </property>
+                            <property name="pixmap">
+                             <pixmap resource="../resources.qrc">:/media/images/icons/dark-theme/warning.png</pixmap>
+                            </property>
+                            <property name="scaledContents">
+                             <bool>true</bool>
+                            </property>
+                           </widget>
+                          </item>
+                          <item>
+                           <spacer name="verticalSpacer_26">
+                            <property name="orientation">
+                             <enum>Qt::Orientation::Vertical</enum>
+                            </property>
+                            <property name="sizeHint" stdset="0">
+                             <size>
+                              <width>20</width>
+                              <height>0</height>
+                             </size>
+                            </property>
+                           </spacer>
+                          </item>
+                         </layout>
+                        </item>
+                        <item>
+                         <widget class="QLabel" name="ageErrorLabel">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="minimumSize">
+                           <size>
+                            <width>0</width>
+                            <height>0</height>
+                           </size>
+                          </property>
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>16777215</height>
+                           </size>
+                          </property>
+                          <property name="focusPolicy">
+                           <enum>Qt::FocusPolicy::NoFocus</enum>
+                          </property>
+                          <property name="text">
+                           <string>You must be over 16 years old.</string>
+                          </property>
+                          <property name="textFormat">
+                           <enum>Qt::TextFormat::PlainText</enum>
+                          </property>
+                          <property name="wordWrap">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <spacer name="verticalSpacer_5">
+                       <property name="orientation">
+                        <enum>Qt::Orientation::Vertical</enum>
+                       </property>
+                       <property name="sizeType">
+                        <enum>QSizePolicy::Policy::Fixed</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>20</width>
+                         <height>20</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                     <item>
+                      <widget class="QLabel" name="logInErrorLabel_3">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>0</height>
+                        </size>
+                       </property>
+                       <property name="maximumSize">
+                        <size>
+                         <width>600</width>
+                         <height>16777215</height>
+                        </size>
+                       </property>
+                       <property name="focusPolicy">
+                        <enum>Qt::FocusPolicy::NoFocus</enum>
+                       </property>
+                       <property name="text">
+                        <string>Please enter your date of birth. We need it to help you enjoy a fun and safe experience for your age.</string>
+                       </property>
+                       <property name="textFormat">
+                        <enum>Qt::TextFormat::PlainText</enum>
+                       </property>
+                       <property name="wordWrap">
+                        <bool>true</bool>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <spacer name="verticalSpacer_21">
+                       <property name="orientation">
+                        <enum>Qt::Orientation::Vertical</enum>
+                       </property>
+                       <property name="sizeType">
+                        <enum>QSizePolicy::Policy::Fixed</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>20</width>
+                         <height>25</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                     <item>
+                      <widget class="QLabel" name="dateOfBirthLabel">
+                       <property name="focusPolicy">
+                        <enum>Qt::FocusPolicy::NoFocus</enum>
+                       </property>
+                       <property name="text">
+                        <string>Birthdate</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <layout class="QGridLayout" name="gridLayout_10">
+                       <item row="0" column="2">
+                        <widget class="QFrame" name="monthOfBirthFrame">
+                         <property name="focusPolicy">
+                          <enum>Qt::FocusPolicy::NoFocus</enum>
+                         </property>
+                         <property name="frameShape">
+                          <enum>QFrame::Shape::StyledPanel</enum>
+                         </property>
+                         <property name="frameShadow">
+                          <enum>QFrame::Shadow::Raised</enum>
+                         </property>
+                         <layout class="QHBoxLayout" name="horizontalLayout_18">
+                          <property name="leftMargin">
+                           <number>5</number>
+                          </property>
+                          <property name="topMargin">
+                           <number>5</number>
+                          </property>
+                          <property name="rightMargin">
+                           <number>5</number>
+                          </property>
+                          <property name="bottomMargin">
+                           <number>5</number>
+                          </property>
+                          <item>
+                           <widget class="QComboBox" name="monthComboBox">
+                            <property name="sizePolicy">
+                             <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+                              <horstretch>0</horstretch>
+                              <verstretch>0</verstretch>
+                             </sizepolicy>
+                            </property>
+                            <property name="minimumSize">
+                             <size>
+                              <width>70</width>
+                              <height>40</height>
+                             </size>
+                            </property>
+                            <property name="cursor">
+                             <cursorShape>PointingHandCursor</cursorShape>
+                            </property>
+                            <property name="editable">
+                             <bool>false</bool>
+                            </property>
+                            <property name="currentText">
+                             <string/>
+                            </property>
+                            <property name="maxVisibleItems">
+                             <number>5</number>
+                            </property>
+                            <property name="maxCount">
+                             <number>12</number>
+                            </property>
+                            <property name="sizeAdjustPolicy">
+                             <enum>QComboBox::SizeAdjustPolicy::AdjustToMinimumContentsLengthWithIcon</enum>
+                            </property>
+                            <property name="minimumContentsLength">
+                             <number>5</number>
+                            </property>
+                            <property name="placeholderText">
+                             <string>Month</string>
+                            </property>
+                            <item>
+                             <property name="text">
+                              <string>Ene</string>
+                             </property>
+                            </item>
+                            <item>
+                             <property name="text">
+                              <string>Feb</string>
+                             </property>
+                            </item>
+                            <item>
+                             <property name="text">
+                              <string>Mar</string>
+                             </property>
+                            </item>
+                            <item>
+                             <property name="text">
+                              <string>Abr</string>
+                             </property>
+                            </item>
+                            <item>
+                             <property name="text">
+                              <string>May</string>
+                             </property>
+                            </item>
+                            <item>
+                             <property name="text">
+                              <string>Jun</string>
+                             </property>
+                            </item>
+                            <item>
+                             <property name="text">
+                              <string>Jul</string>
+                             </property>
+                            </item>
+                            <item>
+                             <property name="text">
+                              <string>Ago</string>
+                             </property>
+                            </item>
+                            <item>
+                             <property name="text">
+                              <string>Sep</string>
+                             </property>
+                            </item>
+                            <item>
+                             <property name="text">
+                              <string>Oct</string>
+                             </property>
+                            </item>
+                            <item>
+                             <property name="text">
+                              <string>Nov</string>
+                             </property>
+                            </item>
+                            <item>
+                             <property name="text">
+                              <string>Dic</string>
+                             </property>
+                            </item>
+                           </widget>
+                          </item>
+                         </layout>
+                        </widget>
+                       </item>
+                       <item row="1" column="4">
+                        <widget class="QLabel" name="yearWarningLabel">
+                         <property name="enabled">
+                          <bool>true</bool>
+                         </property>
+                         <property name="focusPolicy">
+                          <enum>Qt::FocusPolicy::NoFocus</enum>
+                         </property>
+                         <property name="text">
+                          <string>* Mandatory</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="1" column="0">
+                        <widget class="QLabel" name="dayWarningLabel">
+                         <property name="enabled">
+                          <bool>true</bool>
+                         </property>
+                         <property name="focusPolicy">
+                          <enum>Qt::FocusPolicy::NoFocus</enum>
+                         </property>
+                         <property name="text">
+                          <string>* Mandatory</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="0" column="0">
+                        <widget class="QFrame" name="dayOfBirthFrame">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="focusPolicy">
+                          <enum>Qt::FocusPolicy::NoFocus</enum>
+                         </property>
+                         <property name="frameShape">
+                          <enum>QFrame::Shape::StyledPanel</enum>
+                         </property>
+                         <property name="frameShadow">
+                          <enum>QFrame::Shadow::Raised</enum>
+                         </property>
+                         <layout class="QHBoxLayout" name="horizontalLayout_16">
+                          <property name="leftMargin">
+                           <number>5</number>
+                          </property>
+                          <property name="topMargin">
+                           <number>5</number>
+                          </property>
+                          <property name="rightMargin">
+                           <number>5</number>
+                          </property>
+                          <property name="bottomMargin">
+                           <number>5</number>
+                          </property>
+                          <item>
+                           <widget class="QComboBox" name="dayComboBox">
+                            <property name="sizePolicy">
+                             <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+                              <horstretch>0</horstretch>
+                              <verstretch>0</verstretch>
+                             </sizepolicy>
+                            </property>
+                            <property name="minimumSize">
+                             <size>
+                              <width>70</width>
+                              <height>40</height>
+                             </size>
+                            </property>
+                            <property name="cursor">
+                             <cursorShape>PointingHandCursor</cursorShape>
+                            </property>
+                            <property name="focusPolicy">
+                             <enum>Qt::FocusPolicy::WheelFocus</enum>
+                            </property>
+                            <property name="editable">
+                             <bool>false</bool>
+                            </property>
+                            <property name="currentText">
+                             <string/>
+                            </property>
+                            <property name="currentIndex">
+                             <number>-1</number>
+                            </property>
+                            <property name="maxVisibleItems">
+                             <number>5</number>
+                            </property>
+                            <property name="maxCount">
+                             <number>31</number>
+                            </property>
+                            <property name="sizeAdjustPolicy">
+                             <enum>QComboBox::SizeAdjustPolicy::AdjustToMinimumContentsLengthWithIcon</enum>
+                            </property>
+                            <property name="minimumContentsLength">
+                             <number>5</number>
+                            </property>
+                            <property name="placeholderText">
+                             <string>Day</string>
+                            </property>
+                            <property name="frame">
+                             <bool>true</bool>
+                            </property>
+                            <property name="modelColumn">
+                             <number>0</number>
+                            </property>
+                           </widget>
+                          </item>
+                         </layout>
+                        </widget>
+                       </item>
+                       <item row="1" column="2">
+                        <widget class="QLabel" name="monthWarningLabel">
+                         <property name="enabled">
+                          <bool>true</bool>
+                         </property>
+                         <property name="focusPolicy">
+                          <enum>Qt::FocusPolicy::NoFocus</enum>
+                         </property>
+                         <property name="text">
+                          <string>* Mandatory</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="0" column="4">
+                        <widget class="QFrame" name="yearOfBirthFrame">
+                         <property name="focusPolicy">
+                          <enum>Qt::FocusPolicy::NoFocus</enum>
+                         </property>
+                         <property name="frameShape">
+                          <enum>QFrame::Shape::StyledPanel</enum>
+                         </property>
+                         <property name="frameShadow">
+                          <enum>QFrame::Shadow::Raised</enum>
+                         </property>
+                         <layout class="QHBoxLayout" name="horizontalLayout_19">
+                          <property name="leftMargin">
+                           <number>5</number>
+                          </property>
+                          <property name="topMargin">
+                           <number>5</number>
+                          </property>
+                          <property name="rightMargin">
+                           <number>5</number>
+                          </property>
+                          <property name="bottomMargin">
+                           <number>5</number>
+                          </property>
+                          <item>
+                           <widget class="QComboBox" name="yearComboBox">
+                            <property name="sizePolicy">
+                             <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+                              <horstretch>0</horstretch>
+                              <verstretch>0</verstretch>
+                             </sizepolicy>
+                            </property>
+                            <property name="minimumSize">
+                             <size>
+                              <width>70</width>
+                              <height>40</height>
+                             </size>
+                            </property>
+                            <property name="cursor">
+                             <cursorShape>PointingHandCursor</cursorShape>
+                            </property>
+                            <property name="editable">
+                             <bool>false</bool>
+                            </property>
+                            <property name="currentText">
+                             <string/>
+                            </property>
+                            <property name="maxVisibleItems">
+                             <number>5</number>
+                            </property>
+                            <property name="sizeAdjustPolicy">
+                             <enum>QComboBox::SizeAdjustPolicy::AdjustToMinimumContentsLengthWithIcon</enum>
+                            </property>
+                            <property name="minimumContentsLength">
+                             <number>5</number>
+                            </property>
+                            <property name="placeholderText">
+                             <string>Year</string>
+                            </property>
+                           </widget>
+                          </item>
+                         </layout>
+                        </widget>
+                       </item>
+                       <item row="0" column="3">
+                        <spacer name="horizontalSpacer">
+                         <property name="orientation">
+                          <enum>Qt::Orientation::Horizontal</enum>
+                         </property>
+                         <property name="sizeType">
+                          <enum>QSizePolicy::Policy::Fixed</enum>
+                         </property>
+                         <property name="sizeHint" stdset="0">
+                          <size>
+                           <width>15</width>
+                           <height>20</height>
+                          </size>
+                         </property>
+                        </spacer>
+                       </item>
+                       <item row="0" column="1">
+                        <spacer name="horizontalSpacer_7">
+                         <property name="orientation">
+                          <enum>Qt::Orientation::Horizontal</enum>
+                         </property>
+                         <property name="sizeType">
+                          <enum>QSizePolicy::Policy::Fixed</enum>
+                         </property>
+                         <property name="sizeHint" stdset="0">
+                          <size>
+                           <width>15</width>
+                           <height>20</height>
+                          </size>
+                         </property>
+                        </spacer>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <spacer name="verticalSpacer_04">
+                       <property name="orientation">
+                        <enum>Qt::Orientation::Vertical</enum>
+                       </property>
+                       <property name="sizeType">
+                        <enum>QSizePolicy::Policy::Fixed</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>20</width>
+                         <height>30</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                     <item>
+                      <widget class="QPushButton" name="SW_continueButton">
+                       <property name="cursor">
+                        <cursorShape>PointingHandCursor</cursorShape>
+                       </property>
+                       <property name="focusPolicy">
+                        <enum>Qt::FocusPolicy::TabFocus</enum>
+                       </property>
+                       <property name="text">
+                        <string>Continue</string>
+                       </property>
+                       <property name="default">
+                        <bool>false</bool>
+                       </property>
+                       <property name="flat">
+                        <bool>false</bool>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <spacer name="verticalSpacer_2">
+                       <property name="orientation">
+                        <enum>Qt::Orientation::Vertical</enum>
+                       </property>
+                       <property name="sizeType">
+                        <enum>QSizePolicy::Policy::Fixed</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>20</width>
+                         <height>20</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_4">
+                       <item>
+                        <widget class="Line" name="line_1">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="orientation">
+                          <enum>Qt::Orientation::Horizontal</enum>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="label_2">
+                         <property name="text">
+                          <string>or</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="Line" name="line_2">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="orientation">
+                          <enum>Qt::Orientation::Horizontal</enum>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_5">
+                       <item>
+                        <spacer name="horizontalSpacer_2">
+                         <property name="orientation">
+                          <enum>Qt::Orientation::Horizontal</enum>
+                         </property>
+                         <property name="sizeHint" stdset="0">
+                          <size>
+                           <width>40</width>
+                           <height>20</height>
+                          </size>
+                         </property>
+                        </spacer>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="label_3">
+                         <property name="text">
+                          <string>Already have an account?</string>
+                         </property>
+                         <property name="textFormat">
+                          <enum>Qt::TextFormat::PlainText</enum>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QPushButton" name="SW_logInButton">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>25</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>25</height>
+                          </size>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <underline>true</underline>
+                          </font>
+                         </property>
+                         <property name="cursor">
+                          <cursorShape>PointingHandCursor</cursorShape>
+                         </property>
+                         <property name="focusPolicy">
+                          <enum>Qt::FocusPolicy::TabFocus</enum>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true"/>
+                         </property>
+                         <property name="text">
+                          <string>Log In</string>
+                         </property>
+                         <property name="default">
+                          <bool>false</bool>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <spacer name="horizontalSpacer_3">
+                         <property name="orientation">
+                          <enum>Qt::Orientation::Horizontal</enum>
+                         </property>
+                         <property name="sizeHint" stdset="0">
+                          <size>
+                           <width>40</width>
+                           <height>20</height>
+                          </size>
+                         </property>
+                        </spacer>
+                       </item>
+                      </layout>
+                     </item>
+                    </layout>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="verticalSpacer_bottom">
+                  <property name="orientation">
+                   <enum>Qt::Orientation::Vertical</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Policy::MinimumExpanding</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="b_createAccount">
+         <layout class="QGridLayout" name="gridLayout_5">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QScrollArea" name="scrollArea_2">
+            <property name="minimumSize">
+             <size>
+              <width>420</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::FocusPolicy::NoFocus</enum>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::Shape::NoFrame</enum>
+            </property>
+            <property name="horizontalScrollBarPolicy">
+             <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
+            </property>
+            <property name="widgetResizable">
+             <bool>true</bool>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignCenter</set>
+            </property>
+            <widget class="QWidget" name="LW_scrollAreaWidgetContents_2">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>540</width>
+               <height>1134</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>400</width>
+               <height>0</height>
+              </size>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_4">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <layout class="QGridLayout" name="gridLayout_6">
+                <item row="0" column="0">
+                 <spacer name="horizontalSpacer_left_2">
+                  <property name="orientation">
+                   <enum>Qt::Orientation::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item row="0" column="3">
+                 <spacer name="horizontalSpacer_right_2">
+                  <property name="orientation">
+                   <enum>Qt::Orientation::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item row="0" column="1">
+                 <layout class="QVBoxLayout" name="verticalLayout_5">
+                  <item>
+                   <spacer name="verticalSpacer_top_2">
+                    <property name="orientation">
+                     <enum>Qt::Orientation::Vertical</enum>
+                    </property>
+                    <property name="sizeType">
+                     <enum>QSizePolicy::Policy::MinimumExpanding</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>20</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item>
+                   <widget class="QFrame" name="resetPasswordFrame">
+                    <property name="minimumSize">
+                     <size>
+                      <width>400</width>
+                      <height>0</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>550</width>
+                      <height>16777215</height>
+                     </size>
+                    </property>
+                    <property name="focusPolicy">
+                     <enum>Qt::FocusPolicy::NoFocus</enum>
+                    </property>
+                    <property name="frameShape">
+                     <enum>QFrame::Shape::StyledPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Shadow::Raised</enum>
+                    </property>
+                    <layout class="QVBoxLayout" name="verticalLayout_6">
+                     <property name="leftMargin">
+                      <number>30</number>
+                     </property>
+                     <property name="topMargin">
+                      <number>30</number>
+                     </property>
+                     <property name="rightMargin">
+                      <number>30</number>
+                     </property>
+                     <property name="bottomMargin">
+                      <number>30</number>
+                     </property>
+                     <item>
+                      <layout class="QVBoxLayout" name="verticalLayout_7">
+                       <item>
+                        <widget class="QFrame" name="preCreateAccountFrame">
+                         <property name="frameShape">
+                          <enum>QFrame::Shape::NoFrame</enum>
+                         </property>
+                         <property name="frameShadow">
+                          <enum>QFrame::Shadow::Raised</enum>
+                         </property>
+                         <layout class="QGridLayout" name="gridLayout_4">
+                          <property name="leftMargin">
+                           <number>0</number>
+                          </property>
+                          <property name="topMargin">
+                           <number>0</number>
+                          </property>
+                          <property name="rightMargin">
+                           <number>0</number>
+                          </property>
+                          <property name="bottomMargin">
+                           <number>0</number>
+                          </property>
+                          <item row="16" column="0">
+                           <spacer name="verticalSpacer_25">
+                            <property name="orientation">
+                             <enum>Qt::Orientation::Vertical</enum>
+                            </property>
+                            <property name="sizeType">
+                             <enum>QSizePolicy::Policy::Fixed</enum>
+                            </property>
+                            <property name="sizeHint" stdset="0">
+                             <size>
+                              <width>20</width>
+                              <height>15</height>
+                             </size>
+                            </property>
+                           </spacer>
+                          </item>
+                          <item row="17" column="0">
+                           <widget class="QLabel" name="repeatPasswordLabel">
+                            <property name="focusPolicy">
+                             <enum>Qt::FocusPolicy::NoFocus</enum>
+                            </property>
+                            <property name="text">
+                             <string>Repeat Password</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="8" column="0">
+                           <spacer name="verticalSpacer_22">
+                            <property name="orientation">
+                             <enum>Qt::Orientation::Vertical</enum>
+                            </property>
+                            <property name="sizeType">
+                             <enum>QSizePolicy::Policy::Fixed</enum>
+                            </property>
+                            <property name="sizeHint" stdset="0">
+                             <size>
+                              <width>20</width>
+                              <height>15</height>
+                             </size>
+                            </property>
+                           </spacer>
+                          </item>
+                          <item row="4" column="0">
+                           <spacer name="verticalSpacer_4">
+                            <property name="orientation">
+                             <enum>Qt::Orientation::Vertical</enum>
+                            </property>
+                            <property name="sizeType">
+                             <enum>QSizePolicy::Policy::Fixed</enum>
+                            </property>
+                            <property name="sizeHint" stdset="0">
+                             <size>
+                              <width>20</width>
+                              <height>20</height>
+                             </size>
+                            </property>
+                           </spacer>
+                          </item>
+                          <item row="18" column="0">
+                           <widget class="QFrame" name="repeatPasswordFrame">
+                            <property name="font">
+                             <font>
+                              <kerning>true</kerning>
+                             </font>
+                            </property>
+                            <property name="focusPolicy">
+                             <enum>Qt::FocusPolicy::NoFocus</enum>
+                            </property>
+                            <property name="frameShape">
+                             <enum>QFrame::Shape::StyledPanel</enum>
+                            </property>
+                            <property name="frameShadow">
+                             <enum>QFrame::Shadow::Raised</enum>
+                            </property>
+                            <layout class="QHBoxLayout" name="horizontalLayout_21">
+                             <property name="spacing">
+                              <number>0</number>
+                             </property>
+                             <property name="leftMargin">
+                              <number>5</number>
+                             </property>
+                             <property name="topMargin">
+                              <number>5</number>
+                             </property>
+                             <property name="rightMargin">
+                              <number>5</number>
+                             </property>
+                             <property name="bottomMargin">
+                              <number>5</number>
+                             </property>
+                             <item>
+                              <widget class="QLineEdit" name="repeatPasswordLine">
+                               <property name="minimumSize">
+                                <size>
+                                 <width>0</width>
+                                 <height>40</height>
+                                </size>
+                               </property>
+                               <property name="focusPolicy">
+                                <enum>Qt::FocusPolicy::StrongFocus</enum>
+                               </property>
+                               <property name="inputMethodHints">
+                                <set>Qt::InputMethodHint::ImhHiddenText|Qt::InputMethodHint::ImhNoAutoUppercase|Qt::InputMethodHint::ImhNoPredictiveText|Qt::InputMethodHint::ImhSensitiveData</set>
+                               </property>
+                               <property name="echoMode">
+                                <enum>QLineEdit::EchoMode::Password</enum>
+                               </property>
+                               <property name="cursorMoveStyle">
+                                <enum>Qt::CursorMoveStyle::VisualMoveStyle</enum>
+                               </property>
+                               <property name="clearButtonEnabled">
+                                <bool>false</bool>
+                               </property>
+                              </widget>
+                             </item>
+                             <item>
+                              <widget class="QPushButton" name="showRepeatPasswordButton">
+                               <property name="sizePolicy">
+                                <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                                 <horstretch>0</horstretch>
+                                 <verstretch>0</verstretch>
+                                </sizepolicy>
+                               </property>
+                               <property name="minimumSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="maximumSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="sizeIncrement">
+                                <size>
+                                 <width>0</width>
+                                 <height>0</height>
+                                </size>
+                               </property>
+                               <property name="baseSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="cursor">
+                                <cursorShape>PointingHandCursor</cursorShape>
+                               </property>
+                               <property name="focusPolicy">
+                                <enum>Qt::FocusPolicy::TabFocus</enum>
+                               </property>
+                               <property name="text">
+                                <string/>
+                               </property>
+                               <property name="iconSize">
+                                <size>
+                                 <width>25</width>
+                                 <height>25</height>
+                                </size>
+                               </property>
+                               <property name="checkable">
+                                <bool>true</bool>
+                               </property>
+                               <property name="flat">
+                                <bool>false</bool>
+                               </property>
+                              </widget>
+                             </item>
+                            </layout>
+                           </widget>
+                          </item>
+                          <item row="3" column="0">
+                           <widget class="QFrame" name="emailErrorFrame">
+                            <property name="sizePolicy">
+                             <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                              <horstretch>0</horstretch>
+                              <verstretch>0</verstretch>
+                             </sizepolicy>
+                            </property>
+                            <property name="focusPolicy">
+                             <enum>Qt::FocusPolicy::ClickFocus</enum>
+                            </property>
+                            <property name="frameShape">
+                             <enum>QFrame::Shape::StyledPanel</enum>
+                            </property>
+                            <property name="frameShadow">
+                             <enum>QFrame::Shadow::Raised</enum>
+                            </property>
+                            <layout class="QHBoxLayout" name="horizontalLayout_15">
+                             <property name="spacing">
+                              <number>20</number>
+                             </property>
+                             <property name="leftMargin">
+                              <number>20</number>
+                             </property>
+                             <property name="topMargin">
+                              <number>20</number>
+                             </property>
+                             <property name="rightMargin">
+                              <number>20</number>
+                             </property>
+                             <property name="bottomMargin">
+                              <number>20</number>
+                             </property>
+                             <item>
+                              <layout class="QVBoxLayout" name="verticalLayout_16">
+                               <item>
+                                <widget class="QLabel" name="label_6">
+                                 <property name="sizePolicy">
+                                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                                   <horstretch>0</horstretch>
+                                   <verstretch>10</verstretch>
+                                  </sizepolicy>
+                                 </property>
+                                 <property name="minimumSize">
+                                  <size>
+                                   <width>30</width>
+                                   <height>30</height>
+                                  </size>
+                                 </property>
+                                 <property name="maximumSize">
+                                  <size>
+                                   <width>30</width>
+                                   <height>30</height>
+                                  </size>
+                                 </property>
+                                 <property name="text">
+                                  <string/>
+                                 </property>
+                                 <property name="pixmap">
+                                  <pixmap resource="../resources.qrc">:/media/images/icons/dark-theme/warning.png</pixmap>
+                                 </property>
+                                 <property name="scaledContents">
+                                  <bool>true</bool>
+                                 </property>
+                                </widget>
+                               </item>
+                               <item>
+                                <spacer name="verticalSpacer_23">
+                                 <property name="orientation">
+                                  <enum>Qt::Orientation::Vertical</enum>
+                                 </property>
+                                 <property name="sizeHint" stdset="0">
+                                  <size>
+                                   <width>20</width>
+                                   <height>0</height>
+                                  </size>
+                                 </property>
+                                </spacer>
+                               </item>
+                              </layout>
+                             </item>
+                             <item>
+                              <widget class="QLabel" name="emailErrorLabel">
+                               <property name="sizePolicy">
+                                <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                                 <horstretch>0</horstretch>
+                                 <verstretch>0</verstretch>
+                                </sizepolicy>
+                               </property>
+                               <property name="minimumSize">
+                                <size>
+                                 <width>0</width>
+                                 <height>0</height>
+                                </size>
+                               </property>
+                               <property name="maximumSize">
+                                <size>
+                                 <width>16777215</width>
+                                 <height>16777215</height>
+                                </size>
+                               </property>
+                               <property name="focusPolicy">
+                                <enum>Qt::FocusPolicy::NoFocus</enum>
+                               </property>
+                               <property name="text">
+                                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This email is already being used with another Connect4 account. Please check your email and try again or &lt;a href=&quot;#go_to_logIn&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;log in&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                               </property>
+                               <property name="textFormat">
+                                <enum>Qt::TextFormat::RichText</enum>
+                               </property>
+                               <property name="wordWrap">
+                                <bool>true</bool>
+                               </property>
+                              </widget>
+                             </item>
+                            </layout>
+                           </widget>
+                          </item>
+                          <item row="5" column="0">
+                           <widget class="QLabel" name="emailLabel">
+                            <property name="focusPolicy">
+                             <enum>Qt::FocusPolicy::NoFocus</enum>
+                            </property>
+                            <property name="text">
+                             <string>Email Address</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="6" column="0">
+                           <widget class="QFrame" name="emailFrame">
+                            <property name="focusPolicy">
+                             <enum>Qt::FocusPolicy::NoFocus</enum>
+                            </property>
+                            <property name="frameShape">
+                             <enum>QFrame::Shape::StyledPanel</enum>
+                            </property>
+                            <property name="frameShadow">
+                             <enum>QFrame::Shadow::Raised</enum>
+                            </property>
+                            <layout class="QHBoxLayout" name="horizontalLayout_9">
+                             <property name="leftMargin">
+                              <number>5</number>
+                             </property>
+                             <property name="topMargin">
+                              <number>5</number>
+                             </property>
+                             <property name="rightMargin">
+                              <number>5</number>
+                             </property>
+                             <property name="bottomMargin">
+                              <number>5</number>
+                             </property>
+                             <item>
+                              <widget class="QLineEdit" name="emailLine">
+                               <property name="minimumSize">
+                                <size>
+                                 <width>0</width>
+                                 <height>40</height>
+                                </size>
+                               </property>
+                               <property name="font">
+                                <font>
+                                 <strikeout>false</strikeout>
+                                </font>
+                               </property>
+                               <property name="cursor">
+                                <cursorShape>IBeamCursor</cursorShape>
+                               </property>
+                               <property name="focusPolicy">
+                                <enum>Qt::FocusPolicy::StrongFocus</enum>
+                               </property>
+                               <property name="inputMethodHints">
+                                <set>Qt::InputMethodHint::ImhDigitsOnly|Qt::InputMethodHint::ImhEmailCharactersOnly|Qt::InputMethodHint::ImhHiddenText|Qt::InputMethodHint::ImhLowercaseOnly|Qt::InputMethodHint::ImhUppercaseOnly</set>
+                               </property>
+                               <property name="cursorPosition">
+                                <number>0</number>
+                               </property>
+                               <property name="placeholderText">
+                                <string/>
+                               </property>
+                               <property name="cursorMoveStyle">
+                                <enum>Qt::CursorMoveStyle::VisualMoveStyle</enum>
+                               </property>
+                               <property name="clearButtonEnabled">
+                                <bool>false</bool>
+                               </property>
+                              </widget>
+                             </item>
+                            </layout>
+                           </widget>
+                          </item>
+                          <item row="12" column="0">
+                           <spacer name="verticalSpacer_24">
+                            <property name="orientation">
+                             <enum>Qt::Orientation::Vertical</enum>
+                            </property>
+                            <property name="sizeType">
+                             <enum>QSizePolicy::Policy::Fixed</enum>
+                            </property>
+                            <property name="sizeHint" stdset="0">
+                             <size>
+                              <width>20</width>
+                              <height>15</height>
+                             </size>
+                            </property>
+                           </spacer>
+                          </item>
+                          <item row="20" column="0">
+                           <spacer name="verticalSpacer_7">
+                            <property name="orientation">
+                             <enum>Qt::Orientation::Vertical</enum>
+                            </property>
+                            <property name="sizeType">
+                             <enum>QSizePolicy::Policy::Fixed</enum>
+                            </property>
+                            <property name="sizeHint" stdset="0">
+                             <size>
+                              <width>20</width>
+                              <height>30</height>
+                             </size>
+                            </property>
+                           </spacer>
+                          </item>
+                          <item row="13" column="0">
+                           <widget class="QLabel" name="passwordLabel">
+                            <property name="focusPolicy">
+                             <enum>Qt::FocusPolicy::NoFocus</enum>
+                            </property>
+                            <property name="text">
+                             <string>Password</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="14" column="0">
+                           <widget class="QFrame" name="passwordFrame">
+                            <property name="font">
+                             <font>
+                              <kerning>true</kerning>
+                             </font>
+                            </property>
+                            <property name="focusPolicy">
+                             <enum>Qt::FocusPolicy::NoFocus</enum>
+                            </property>
+                            <property name="frameShape">
+                             <enum>QFrame::Shape::StyledPanel</enum>
+                            </property>
+                            <property name="frameShadow">
+                             <enum>QFrame::Shadow::Raised</enum>
+                            </property>
+                            <layout class="QHBoxLayout" name="horizontalLayout_20">
+                             <property name="spacing">
+                              <number>0</number>
+                             </property>
+                             <property name="leftMargin">
+                              <number>5</number>
+                             </property>
+                             <property name="topMargin">
+                              <number>5</number>
+                             </property>
+                             <property name="rightMargin">
+                              <number>5</number>
+                             </property>
+                             <property name="bottomMargin">
+                              <number>5</number>
+                             </property>
+                             <item>
+                              <widget class="QLineEdit" name="passwordLine">
+                               <property name="minimumSize">
+                                <size>
+                                 <width>0</width>
+                                 <height>40</height>
+                                </size>
+                               </property>
+                               <property name="focusPolicy">
+                                <enum>Qt::FocusPolicy::StrongFocus</enum>
+                               </property>
+                               <property name="inputMethodHints">
+                                <set>Qt::InputMethodHint::ImhHiddenText|Qt::InputMethodHint::ImhNoAutoUppercase|Qt::InputMethodHint::ImhNoPredictiveText|Qt::InputMethodHint::ImhSensitiveData</set>
+                               </property>
+                               <property name="echoMode">
+                                <enum>QLineEdit::EchoMode::Password</enum>
+                               </property>
+                               <property name="cursorMoveStyle">
+                                <enum>Qt::CursorMoveStyle::VisualMoveStyle</enum>
+                               </property>
+                               <property name="clearButtonEnabled">
+                                <bool>false</bool>
+                               </property>
+                              </widget>
+                             </item>
+                             <item>
+                              <widget class="QPushButton" name="showPasswordButton">
+                               <property name="sizePolicy">
+                                <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                                 <horstretch>0</horstretch>
+                                 <verstretch>0</verstretch>
+                                </sizepolicy>
+                               </property>
+                               <property name="minimumSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="maximumSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="sizeIncrement">
+                                <size>
+                                 <width>0</width>
+                                 <height>0</height>
+                                </size>
+                               </property>
+                               <property name="baseSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="cursor">
+                                <cursorShape>PointingHandCursor</cursorShape>
+                               </property>
+                               <property name="focusPolicy">
+                                <enum>Qt::FocusPolicy::TabFocus</enum>
+                               </property>
+                               <property name="toolTip">
+                                <string/>
+                               </property>
+                               <property name="text">
+                                <string/>
+                               </property>
+                               <property name="iconSize">
+                                <size>
+                                 <width>25</width>
+                                 <height>25</height>
+                                </size>
+                               </property>
+                               <property name="checkable">
+                                <bool>true</bool>
+                               </property>
+                               <property name="flat">
+                                <bool>false</bool>
+                               </property>
+                              </widget>
+                             </item>
+                             <item>
+                              <widget class="QPushButton" name="passwordInfoToolTip">
+                               <property name="sizePolicy">
+                                <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                                 <horstretch>0</horstretch>
+                                 <verstretch>0</verstretch>
+                                </sizepolicy>
+                               </property>
+                               <property name="minimumSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="maximumSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="sizeIncrement">
+                                <size>
+                                 <width>0</width>
+                                 <height>0</height>
+                                </size>
+                               </property>
+                               <property name="baseSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="cursor">
+                                <cursorShape>PointingHandCursor</cursorShape>
+                               </property>
+                               <property name="focusPolicy">
+                                <enum>Qt::FocusPolicy::NoFocus</enum>
+                               </property>
+                               <property name="toolTip">
+                                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You must:&lt;/p&gt;&lt;p&gt;- Use al least 8 characters (20 maximum) &lt;/p&gt;&lt;p&gt;- Use at least 1 uppercase letter&lt;/p&gt;&lt;p&gt;- Use al least 1 number&lt;/p&gt;&lt;p&gt;- Use at least 1 special character: !@#$%&amp;amp;*()-+=&lt;/p&gt;&lt;p&gt;- Not use spaces&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                               </property>
+                               <property name="text">
+                                <string/>
+                               </property>
+                               <property name="iconSize">
+                                <size>
+                                 <width>20</width>
+                                 <height>20</height>
+                                </size>
+                               </property>
+                               <property name="checkable">
+                                <bool>true</bool>
+                               </property>
+                               <property name="flat">
+                                <bool>false</bool>
+                               </property>
+                              </widget>
+                             </item>
+                            </layout>
+                           </widget>
+                          </item>
+                          <item row="0" column="0">
+                           <layout class="QHBoxLayout" name="horizontalLayout_6">
+                            <item>
+                             <widget class="QPushButton" name="b_backButton">
+                              <property name="sizePolicy">
+                               <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                                <horstretch>0</horstretch>
+                                <verstretch>0</verstretch>
+                               </sizepolicy>
+                              </property>
+                              <property name="minimumSize">
+                               <size>
+                                <width>40</width>
+                                <height>40</height>
+                               </size>
+                              </property>
+                              <property name="maximumSize">
+                               <size>
+                                <width>40</width>
+                                <height>40</height>
+                               </size>
+                              </property>
+                              <property name="sizeIncrement">
+                               <size>
+                                <width>0</width>
+                                <height>0</height>
+                               </size>
+                              </property>
+                              <property name="cursor">
+                               <cursorShape>PointingHandCursor</cursorShape>
+                              </property>
+                              <property name="focusPolicy">
+                               <enum>Qt::FocusPolicy::TabFocus</enum>
+                              </property>
+                              <property name="text">
+                               <string/>
+                              </property>
+                              <property name="icon">
+                               <iconset resource="../resources.qrc">
+                                <normaloff>:/media/images/icons/dark-theme/back.png</normaloff>:/media/images/icons/dark-theme/back.png</iconset>
+                              </property>
+                              <property name="iconSize">
+                               <size>
+                                <width>40</width>
+                                <height>40</height>
+                               </size>
+                              </property>
+                             </widget>
+                            </item>
+                            <item>
+                             <spacer name="horizontalSpacer_4">
+                              <property name="orientation">
+                               <enum>Qt::Orientation::Horizontal</enum>
+                              </property>
+                              <property name="sizeHint" stdset="0">
+                               <size>
+                                <width>40</width>
+                                <height>20</height>
+                               </size>
+                              </property>
+                             </spacer>
+                            </item>
+                           </layout>
+                          </item>
+                          <item row="7" column="0">
+                           <widget class="QLabel" name="emailWarningLabel">
+                            <property name="enabled">
+                             <bool>true</bool>
+                            </property>
+                            <property name="focusPolicy">
+                             <enum>Qt::FocusPolicy::NoFocus</enum>
+                            </property>
+                            <property name="text">
+                             <string>* Mandatory</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="11" column="0">
+                           <widget class="QLabel" name="nickNameWarningLabel">
+                            <property name="enabled">
+                             <bool>true</bool>
+                            </property>
+                            <property name="focusPolicy">
+                             <enum>Qt::FocusPolicy::NoFocus</enum>
+                            </property>
+                            <property name="text">
+                             <string>* Mandatory</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="2" column="0">
+                           <spacer name="verticalSpacer_3">
+                            <property name="orientation">
+                             <enum>Qt::Orientation::Vertical</enum>
+                            </property>
+                            <property name="sizeType">
+                             <enum>QSizePolicy::Policy::Fixed</enum>
+                            </property>
+                            <property name="sizeHint" stdset="0">
+                             <size>
+                              <width>20</width>
+                              <height>20</height>
+                             </size>
+                            </property>
+                           </spacer>
+                          </item>
+                          <item row="10" column="0">
+                           <widget class="QFrame" name="nickNameFrame">
+                            <property name="focusPolicy">
+                             <enum>Qt::FocusPolicy::NoFocus</enum>
+                            </property>
+                            <property name="frameShape">
+                             <enum>QFrame::Shape::StyledPanel</enum>
+                            </property>
+                            <property name="frameShadow">
+                             <enum>QFrame::Shadow::Raised</enum>
+                            </property>
+                            <layout class="QHBoxLayout" name="horizontalLayout_3">
+                             <property name="spacing">
+                              <number>0</number>
+                             </property>
+                             <property name="leftMargin">
+                              <number>5</number>
+                             </property>
+                             <property name="topMargin">
+                              <number>5</number>
+                             </property>
+                             <property name="rightMargin">
+                              <number>5</number>
+                             </property>
+                             <property name="bottomMargin">
+                              <number>5</number>
+                             </property>
+                             <item>
+                              <widget class="QLineEdit" name="nickNameLine">
+                               <property name="minimumSize">
+                                <size>
+                                 <width>0</width>
+                                 <height>40</height>
+                                </size>
+                               </property>
+                               <property name="font">
+                                <font>
+                                 <strikeout>false</strikeout>
+                                </font>
+                               </property>
+                               <property name="cursor">
+                                <cursorShape>IBeamCursor</cursorShape>
+                               </property>
+                               <property name="focusPolicy">
+                                <enum>Qt::FocusPolicy::StrongFocus</enum>
+                               </property>
+                               <property name="inputMethodHints">
+                                <set>Qt::InputMethodHint::ImhDigitsOnly|Qt::InputMethodHint::ImhEmailCharactersOnly|Qt::InputMethodHint::ImhLowercaseOnly|Qt::InputMethodHint::ImhUppercaseOnly</set>
+                               </property>
+                               <property name="cursorPosition">
+                                <number>0</number>
+                               </property>
+                               <property name="placeholderText">
+                                <string/>
+                               </property>
+                               <property name="cursorMoveStyle">
+                                <enum>Qt::CursorMoveStyle::VisualMoveStyle</enum>
+                               </property>
+                               <property name="clearButtonEnabled">
+                                <bool>false</bool>
+                               </property>
+                              </widget>
+                             </item>
+                             <item>
+                              <widget class="QPushButton" name="nickNameInfoToolTip">
+                               <property name="sizePolicy">
+                                <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                                 <horstretch>0</horstretch>
+                                 <verstretch>0</verstretch>
+                                </sizepolicy>
+                               </property>
+                               <property name="minimumSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="maximumSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="sizeIncrement">
+                                <size>
+                                 <width>0</width>
+                                 <height>0</height>
+                                </size>
+                               </property>
+                               <property name="baseSize">
+                                <size>
+                                 <width>25</width>
+                                 <height>25</height>
+                                </size>
+                               </property>
+                               <property name="cursor">
+                                <cursorShape>PointingHandCursor</cursorShape>
+                               </property>
+                               <property name="focusPolicy">
+                                <enum>Qt::FocusPolicy::NoFocus</enum>
+                               </property>
+                               <property name="toolTip">
+                                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You must:&lt;/p&gt;&lt;p&gt;- Use al least 3 characters (16 maximum)&lt;/p&gt;&lt;p&gt;- May contain letters, numbers, and hyphens, periods, and underscores&lt;/p&gt;&lt;p&gt;- Not use spaces&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                               </property>
+                               <property name="text">
+                                <string/>
+                               </property>
+                               <property name="iconSize">
+                                <size>
+                                 <width>20</width>
+                                 <height>20</height>
+                                </size>
+                               </property>
+                               <property name="checkable">
+                                <bool>true</bool>
+                               </property>
+                               <property name="flat">
+                                <bool>false</bool>
+                               </property>
+                              </widget>
+                             </item>
+                            </layout>
+                           </widget>
+                          </item>
+                          <item row="1" column="0">
+                           <widget class="QLabel" name="resetPasswordLabel">
+                            <property name="focusPolicy">
+                             <enum>Qt::FocusPolicy::StrongFocus</enum>
+                            </property>
+                            <property name="text">
+                             <string>Create an Account</string>
+                            </property>
+                            <property name="alignment">
+                             <set>Qt::AlignmentFlag::AlignCenter</set>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="9" column="0">
+                           <widget class="QLabel" name="nickNameLabel_2">
+                            <property name="focusPolicy">
+                             <enum>Qt::FocusPolicy::NoFocus</enum>
+                            </property>
+                            <property name="text">
+                             <string>User name</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="19" column="0">
+                           <widget class="QLabel" name="repeatPasswordWarningLabel">
+                            <property name="enabled">
+                             <bool>true</bool>
+                            </property>
+                            <property name="focusPolicy">
+                             <enum>Qt::FocusPolicy::NoFocus</enum>
+                            </property>
+                            <property name="text">
+                             <string>* Required / does not match</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="15" column="0">
+                           <widget class="QLabel" name="passwordWarningLabel">
+                            <property name="enabled">
+                             <bool>true</bool>
+                            </property>
+                            <property name="focusPolicy">
+                             <enum>Qt::FocusPolicy::NoFocus</enum>
+                            </property>
+                            <property name="text">
+                             <string>* Mandatory</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="21" column="0">
+                           <widget class="QPushButton" name="SW_createAccountButton">
+                            <property name="cursor">
+                             <cursorShape>PointingHandCursor</cursorShape>
+                            </property>
+                            <property name="focusPolicy">
+                             <enum>Qt::FocusPolicy::TabFocus</enum>
+                            </property>
+                            <property name="text">
+                             <string>Create account</string>
+                            </property>
+                            <property name="default">
+                             <bool>false</bool>
+                            </property>
+                            <property name="flat">
+                             <bool>false</bool>
+                            </property>
+                           </widget>
+                          </item>
+                         </layout>
+                        </widget>
+                       </item>
+                       <item>
+                        <spacer name="verticalSpacer_8">
+                         <property name="orientation">
+                          <enum>Qt::Orientation::Vertical</enum>
+                         </property>
+                         <property name="sizeType">
+                          <enum>QSizePolicy::Policy::Fixed</enum>
+                         </property>
+                         <property name="sizeHint" stdset="0">
+                          <size>
+                           <width>20</width>
+                           <height>20</height>
+                          </size>
+                         </property>
+                        </spacer>
+                       </item>
+                       <item>
+                        <widget class="QFrame" name="orFrame">
+                         <property name="frameShape">
+                          <enum>QFrame::Shape::NoFrame</enum>
+                         </property>
+                         <property name="frameShadow">
+                          <enum>QFrame::Shadow::Raised</enum>
+                         </property>
+                         <layout class="QGridLayout" name="gridLayout_7">
+                          <property name="leftMargin">
+                           <number>0</number>
+                          </property>
+                          <property name="topMargin">
+                           <number>0</number>
+                          </property>
+                          <property name="rightMargin">
+                           <number>0</number>
+                          </property>
+                          <property name="bottomMargin">
+                           <number>0</number>
+                          </property>
+                          <item row="1" column="0">
+                           <layout class="QHBoxLayout" name="horizontalLayout_23">
+                            <item>
+                             <widget class="Line" name="line_5">
+                              <property name="sizePolicy">
+                               <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                                <horstretch>0</horstretch>
+                                <verstretch>0</verstretch>
+                               </sizepolicy>
+                              </property>
+                              <property name="minimumSize">
+                               <size>
+                                <width>0</width>
+                                <height>0</height>
+                               </size>
+                              </property>
+                              <property name="orientation">
+                               <enum>Qt::Orientation::Horizontal</enum>
+                              </property>
+                             </widget>
+                            </item>
+                            <item>
+                             <widget class="QLabel" name="label_8">
+                              <property name="text">
+                               <string>or</string>
+                              </property>
+                             </widget>
+                            </item>
+                            <item>
+                             <widget class="Line" name="line_6">
+                              <property name="sizePolicy">
+                               <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                                <horstretch>0</horstretch>
+                                <verstretch>0</verstretch>
+                               </sizepolicy>
+                              </property>
+                              <property name="minimumSize">
+                               <size>
+                                <width>0</width>
+                                <height>0</height>
+                               </size>
+                              </property>
+                              <property name="orientation">
+                               <enum>Qt::Orientation::Horizontal</enum>
+                              </property>
+                             </widget>
+                            </item>
+                           </layout>
+                          </item>
+                          <item row="2" column="0">
+                           <layout class="QHBoxLayout" name="horizontalLayout_7">
+                            <item>
+                             <spacer name="horizontalSpacer_8">
+                              <property name="orientation">
+                               <enum>Qt::Orientation::Horizontal</enum>
+                              </property>
+                              <property name="sizeHint" stdset="0">
+                               <size>
+                                <width>40</width>
+                                <height>20</height>
+                               </size>
+                              </property>
+                             </spacer>
+                            </item>
+                            <item>
+                             <widget class="QLabel" name="label_4">
+                              <property name="text">
+                               <string>Already have an account?</string>
+                              </property>
+                              <property name="textFormat">
+                               <enum>Qt::TextFormat::PlainText</enum>
+                              </property>
+                             </widget>
+                            </item>
+                            <item>
+                             <widget class="QPushButton" name="SW_logInButton_2">
+                              <property name="sizePolicy">
+                               <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                                <horstretch>0</horstretch>
+                                <verstretch>0</verstretch>
+                               </sizepolicy>
+                              </property>
+                              <property name="minimumSize">
+                               <size>
+                                <width>0</width>
+                                <height>25</height>
+                               </size>
+                              </property>
+                              <property name="maximumSize">
+                               <size>
+                                <width>16777215</width>
+                                <height>25</height>
+                               </size>
+                              </property>
+                              <property name="font">
+                               <font>
+                                <underline>true</underline>
+                               </font>
+                              </property>
+                              <property name="cursor">
+                               <cursorShape>PointingHandCursor</cursorShape>
+                              </property>
+                              <property name="focusPolicy">
+                               <enum>Qt::FocusPolicy::TabFocus</enum>
+                              </property>
+                              <property name="styleSheet">
+                               <string notr="true"/>
+                              </property>
+                              <property name="text">
+                               <string>Log In</string>
+                              </property>
+                              <property name="default">
+                               <bool>false</bool>
+                              </property>
+                             </widget>
+                            </item>
+                            <item>
+                             <spacer name="horizontalSpacer_9">
+                              <property name="orientation">
+                               <enum>Qt::Orientation::Horizontal</enum>
+                              </property>
+                              <property name="sizeHint" stdset="0">
+                               <size>
+                                <width>40</width>
+                                <height>20</height>
+                               </size>
+                              </property>
+                             </spacer>
+                            </item>
+                           </layout>
+                          </item>
+                         </layout>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="accountCreatedLabel">
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777212</width>
+                           <height>16777212</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Account created successfully&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;#go_to_logIn&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;Log In&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                         </property>
+                         <property name="textFormat">
+                          <enum>Qt::TextFormat::RichText</enum>
+                         </property>
+                         <property name="alignment">
+                          <set>Qt::AlignmentFlag::AlignCenter</set>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                  <item>
+                   <spacer name="verticalSpacer_bottom_2">
+                    <property name="orientation">
+                     <enum>Qt::Orientation::Vertical</enum>
+                    </property>
+                    <property name="sizeType">
+                     <enum>QSizePolicy::Policy::MinimumExpanding</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>20</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="b_chooseAvatar">
+         <layout class="QGridLayout" name="gridLayout_12">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QScrollArea" name="scrollArea_3">
+            <property name="minimumSize">
+             <size>
+              <width>420</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::FocusPolicy::NoFocus</enum>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::Shape::NoFrame</enum>
+            </property>
+            <property name="horizontalScrollBarPolicy">
+             <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
+            </property>
+            <property name="widgetResizable">
+             <bool>true</bool>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignCenter</set>
+            </property>
+            <widget class="QWidget" name="LW_scrollAreaWidgetContents_3">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>556</width>
+               <height>609</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>400</width>
+               <height>0</height>
+              </size>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_9">
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item row="0" column="0">
+               <spacer name="horizontalSpacer_left_3">
+                <property name="orientation">
+                 <enum>Qt::Orientation::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>173</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="0" column="3">
+               <spacer name="horizontalSpacer_right_3">
+                <property name="orientation">
+                 <enum>Qt::Orientation::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>173</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="0" column="1">
+               <layout class="QVBoxLayout" name="verticalLayout_2">
+                <item>
+                 <spacer name="verticalSpacer_top_3">
+                  <property name="orientation">
+                   <enum>Qt::Orientation::Vertical</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Policy::MinimumExpanding</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QFrame" name="singInFrame">
+                  <property name="minimumSize">
+                   <size>
+                    <width>400</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>550</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>Qt::FocusPolicy::NoFocus</enum>
+                  </property>
+                  <property name="frameShape">
+                   <enum>QFrame::Shape::StyledPanel</enum>
+                  </property>
+                  <property name="frameShadow">
+                   <enum>QFrame::Shadow::Raised</enum>
+                  </property>
+                  <layout class="QVBoxLayout" name="verticalLayout_8">
+                   <property name="leftMargin">
+                    <number>30</number>
+                   </property>
+                   <property name="topMargin">
+                    <number>30</number>
+                   </property>
+                   <property name="rightMargin">
+                    <number>30</number>
+                   </property>
+                   <property name="bottomMargin">
+                    <number>30</number>
+                   </property>
+                   <item>
+                    <layout class="QVBoxLayout" name="verticalLayout_9">
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_2">
+                       <item>
+                        <widget class="QPushButton" name="c_backButton">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>40</width>
+                           <height>40</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>40</width>
+                           <height>40</height>
+                          </size>
+                         </property>
+                         <property name="sizeIncrement">
+                          <size>
+                           <width>0</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="cursor">
+                          <cursorShape>PointingHandCursor</cursorShape>
+                         </property>
+                         <property name="focusPolicy">
+                          <enum>Qt::FocusPolicy::TabFocus</enum>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                         <property name="iconSize">
+                          <size>
+                           <width>40</width>
+                           <height>40</height>
+                          </size>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <spacer name="horizontalSpacer_5">
+                         <property name="orientation">
+                          <enum>Qt::Orientation::Horizontal</enum>
+                         </property>
+                         <property name="sizeHint" stdset="0">
+                          <size>
+                           <width>40</width>
+                           <height>20</height>
+                          </size>
+                         </property>
+                        </spacer>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <widget class="QLabel" name="a_singInLabel_2">
+                       <property name="focusPolicy">
+                        <enum>Qt::FocusPolicy::StrongFocus</enum>
+                       </property>
+                       <property name="text">
+                        <string>Create an Account</string>
+                       </property>
+                       <property name="alignment">
+                        <set>Qt::AlignmentFlag::AlignCenter</set>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <spacer name="verticalSpacer_6">
+                       <property name="orientation">
+                        <enum>Qt::Orientation::Vertical</enum>
+                       </property>
+                       <property name="sizeType">
+                        <enum>QSizePolicy::Policy::Fixed</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>20</width>
+                         <height>20</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                     <item>
+                      <widget class="QLabel" name="logInErrorLabel_4">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>0</height>
+                        </size>
+                       </property>
+                       <property name="maximumSize">
+                        <size>
+                         <width>600</width>
+                         <height>16777215</height>
+                        </size>
+                       </property>
+                       <property name="focusPolicy">
+                        <enum>Qt::FocusPolicy::NoFocus</enum>
+                       </property>
+                       <property name="text">
+                        <string>Select a custom avatar now or leave it for later.</string>
+                       </property>
+                       <property name="textFormat">
+                        <enum>Qt::TextFormat::PlainText</enum>
+                       </property>
+                       <property name="wordWrap">
+                        <bool>true</bool>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <spacer name="verticalSpacer_28">
+                       <property name="orientation">
+                        <enum>Qt::Orientation::Vertical</enum>
+                       </property>
+                       <property name="sizeType">
+                        <enum>QSizePolicy::Policy::Fixed</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>20</width>
+                         <height>25</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                     <item>
+                      <layout class="QGridLayout" name="gridLayout_8">
+                       <property name="sizeConstraint">
+                        <enum>QLayout::SizeConstraint::SetFixedSize</enum>
+                       </property>
+                       <item row="0" column="2">
+                        <spacer name="horizontalSpacer_6">
+                         <property name="orientation">
+                          <enum>Qt::Orientation::Horizontal</enum>
+                         </property>
+                         <property name="sizeType">
+                          <enum>QSizePolicy::Policy::Expanding</enum>
+                         </property>
+                         <property name="sizeHint" stdset="0">
+                          <size>
+                           <width>20</width>
+                           <height>20</height>
+                          </size>
+                         </property>
+                        </spacer>
+                       </item>
+                       <item row="0" column="0">
+                        <spacer name="horizontalSpacer_10">
+                         <property name="orientation">
+                          <enum>Qt::Orientation::Horizontal</enum>
+                         </property>
+                         <property name="sizeType">
+                          <enum>QSizePolicy::Policy::Expanding</enum>
+                         </property>
+                         <property name="sizeHint" stdset="0">
+                          <size>
+                           <width>20</width>
+                           <height>20</height>
+                          </size>
+                         </property>
+                        </spacer>
+                       </item>
+                       <item row="0" column="1">
+                        <widget class="QPushButton" name="avatarButton">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>150</width>
+                           <height>150</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>150</width>
+                           <height>150</height>
+                          </size>
+                         </property>
+                         <property name="cursor">
+                          <cursorShape>PointingHandCursor</cursorShape>
+                         </property>
+                         <property name="focusPolicy">
+                          <enum>Qt::FocusPolicy::TabFocus</enum>
+                         </property>
+                         <property name="toolTip">
+                          <string>Cambiar avatar</string>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                         <property name="icon">
+                          <iconset resource="../resources.qrc">
+                           <normaloff>:/media/images/avatars/default.png</normaloff>:/media/images/avatars/default.png</iconset>
+                         </property>
+                         <property name="iconSize">
+                          <size>
+                           <width>150</width>
+                           <height>150</height>
+                          </size>
+                         </property>
+                         <property name="flat">
+                          <bool>false</bool>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <spacer name="verticalSpacer_10">
+                       <property name="orientation">
+                        <enum>Qt::Orientation::Vertical</enum>
+                       </property>
+                       <property name="sizeType">
+                        <enum>QSizePolicy::Policy::Fixed</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>20</width>
+                         <height>30</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                     <item>
+                      <widget class="QPushButton" name="SW_continueButton_2">
+                       <property name="cursor">
+                        <cursorShape>PointingHandCursor</cursorShape>
+                       </property>
+                       <property name="focusPolicy">
+                        <enum>Qt::FocusPolicy::TabFocus</enum>
+                       </property>
+                       <property name="text">
+                        <string>Continue</string>
+                       </property>
+                       <property name="default">
+                        <bool>false</bool>
+                       </property>
+                       <property name="flat">
+                        <bool>false</bool>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="verticalSpacer_bottom_3">
+                  <property name="orientation">
+                   <enum>Qt::Orientation::Vertical</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Policy::MinimumExpanding</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>a_singInLabel</tabstop>
+  <tabstop>a_backButton</tabstop>
+  <tabstop>dayComboBox</tabstop>
+  <tabstop>monthComboBox</tabstop>
+  <tabstop>yearComboBox</tabstop>
+  <tabstop>SW_continueButton</tabstop>
+  <tabstop>SW_logInButton</tabstop>
+  <tabstop>b_backButton</tabstop>
+  <tabstop>emailLine</tabstop>
+  <tabstop>nickNameLine</tabstop>
+  <tabstop>nickNameInfoToolTip</tabstop>
+  <tabstop>passwordLine</tabstop>
+  <tabstop>showPasswordButton</tabstop>
+  <tabstop>repeatPasswordLine</tabstop>
+  <tabstop>showRepeatPasswordButton</tabstop>
+ </tabstops>
+ <resources>
+  <include location="../resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
