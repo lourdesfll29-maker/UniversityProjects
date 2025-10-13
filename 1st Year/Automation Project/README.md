@@ -14,8 +14,8 @@ El problema específico que se aborda es el transporte de componentes y material
 
 ### Descargables
 
-* [Propuesta de Negocio (ES) – Grupo B6](URL_DEL_PDF_BUSINESS_PROPOSAL)
-* [Propuesta Técnica (ES) – Grupo B6](URL_DEL_PDF_TECHNICAL_PROPOSAL)
+* [Propuesta de Negocio (ES) – Grupo B6](https://github.com/lourdesfll29-maker/UniversityProjects/blob/a78c44bb445d4f5dbd9eac7eca0536e779916302/1st%20Year/Automation%20Project/propuesta_empresarial-grupo_B6.pdf)
+* [Propuesta Técnica (ES) – Grupo B6](https://github.com/lourdesfll29-maker/UniversityProjects/blob/a78c44bb445d4f5dbd9eac7eca0536e779916302/1st%20Year/Automation%20Project/propuesta_tecnica-grupo_B6.pdf)
 
 ## La Propuesta
 
