@@ -44,3 +44,4 @@ La solución integra varios componentes clave de la visión por computador para 
 ## Archivos del Proyecto
 
 * **`get_the_coins-memoria.pdf`**: Documento de memoria que describe en detalle el problema, la solución implementada, las técnicas utilizadas y el resultado final del proyecto.
+* [Vídeo Demo](https://drive.google.com/file/d/1VoytYbdsXKzi9DawsW3F_lEisNBE0nhM/view?usp=sharing)
