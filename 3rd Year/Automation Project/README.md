@@ -58,7 +58,7 @@ A continuación se adjuntan los enlaces a la memoria técnica del proyecto y al 
 ### Descargables
 
 * [Memoria Técnica del Proyecto](https://github.com/lourdesfll29-maker/UniversityProjects/blob/e7cbcf40eb276eb262ec3c67cb3a5b33026292e4/3rd%20Year/Automation%20Project/EOB%20-%20Documentaci%C3%B3n.pdf)
-* [Vídeo Explicativo del Proyecto](https://www.feriaetsinf.org/proyectos/rob%C3%B3tica#h.zbp7r9e80ous)
+* [Vídeo Explicativo del Proyecto](https://drive.google.com/file/d/16FOQKhedTDECXBpv3y2MTfZeRL6AfhZI/view)
 
 ## Conclusiones y Puntos Clave
 
