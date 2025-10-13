@@ -56,3 +56,10 @@ La implementación de robots móviles autónomos (AMR) ha demostrado ser una sol
 ## Agradecimientos Especiales
 
 Este proyecto no habría sido posible sin la ayuda de los profesores de Fundamentos de Organización de Empresas y de Eduardo Vendrell, profesor de la asignatura Proyecto RII 1: Organización y Escenarios. También se agradece el trabajo de los compañeros Marcos Belda y Carla Hidalgo.
+
+## Información Adicional
+
+Para una descripción más visual y detallada del proyecto, puedes visitar la página web creada por mi compañero de equipo, Marcos Belda:
+
+* [Página Web del Proyecto](https://zuecopio.github.io/first-year-of-degree.html)
+
