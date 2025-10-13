@@ -65,3 +65,9 @@ Se ha logrado desarrollar un sistema automatizado para la preparación de pedido
 ### Trabajo Futuro
 
 Como posibles mejoras a futuro, se plantea la optimización de los algoritmos de planificación de rutas de los robots y la integración de sistemas de visión artificial para la identificación de productos.
+
+## Información Adicional
+
+Para una descripción más visual y detallada del proyecto, puedes visitar la página web creada por mi compañero de equipo, Marcos Belda:
+
+* [Página Web del Proyecto](https://zuecopio.github.io/second-year-of-degree.html)
