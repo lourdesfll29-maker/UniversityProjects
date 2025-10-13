@@ -1,0 +1,1079 @@
+/******************************************************************************/
+/* BACKGROUND */
+
+#LW_scrollAreaWidgetContents_1,
+#LW_scrollAreaWidgetContents_2,
+#LW_scrollAreaWidgetContents_3,
+#LW_scrollAreaWidgetContents_4,
+#scrollAreaWidgetContents,
+#welcomeFrame,
+#mainMenuFrame,
+#mainPauseMenuFrame,
+#mainVictoryFrame
+{
+    background-color: #D5D5D5;
+}
+
+/******************************************************************************/
+
+
+
+
+/***/
+
+
+
+
+/******************************************************************************/
+/* FRAME - LAYER 0 */
+
+#logInFrame,
+#resetPasswordFrame,
+#checkInboxFrame,
+#createNewPasswordFrame,
+#profileWindowFrame,
+#singInFrame,
+#optionsFrame,
+#aboutFrame,
+#newgameFrame,
+#newgame2Frame,
+#startFrame,
+#rankingWindowFrame,
+#individualRankingFrame,
+#pauseMenuFrame,
+#victoryFrame
+{
+    background-color: #E7E8E3;
+    border: 1px solid #CFD0CC;
+    border-radius: 10px;
+}
+
+/******************************************************************************/
+/* FRAME - LAYER 1 */
+
+#mainLanguageFrame,
+#mainVolumeFrame,
+#themeFrame,
+#colorSelectionFrame,
+#mainGamemodeFrame,
+#sizeFrame,
+#mainRoundsFrame,
+#mainPodiumFrame,
+#numberOfFrame,
+#rankingTableFrame,
+#stadisticsFrame,
+#pointsFrame,
+#historyFrame,
+#contenedorPuntos,
+#gamesFrame
+{
+    background-color: #e4e4e2;
+    border: 1px solid #dbdbda;
+    border-radius: 10px;
+    padding: 0px;
+}
+
+/******************************************************************************/
+/* FRAME - LAYER 2 (for interactable objects) */
+
+#passwordFrame,
+#nickNameFrame,
+#emailFrame,
+#securityCodeFrame,
+#newPasswordFrame,
+#youMustFrame,
+#dayOfBirthFrame,
+#monthOfBirthFrame,
+#yearOfBirthFrame,
+#repeatPasswordFrame,
+#languageFrame,
+#musicFrame,
+#efectsFrame,
+#selectMusicFrame,
+#selectColorFrame,
+#selectThemeFrame,
+#player2AccountFrame,
+#gamemodeFrame,
+#player1Frame,
+#player2Frame,
+#sizeoptionsFrame,
+#roundsFrame,
+#sizeimageFrame,
+#podiumFrame,
+#searchRankingTableFrame,
+#rankingDateFrame,
+#playedGames,
+#opponentsFrame,
+#botonesAntes,
+#botonesDespues
+{
+    background-color: #DBDBD7;
+    border-radius: 10px;
+    border: 1px solid #C3C3C0;
+    padding: 0px;
+}
+#passwordFrame:disabled,
+#nickNameFrame:disabled,
+#emailFrame:disabled,
+#securityCodeFrame:disabled,
+#newPasswordFrame:disabled,
+#youMustFrame:disabled,
+#dayOfBirthFrame:disabled,
+#monthOfBirthFrame:disabled,
+#yearOfBirthFrame:disabled,
+#repeatPasswordFrame:disabled
+{
+    background-color: #e4e4e2;
+    border: 1px solid #dbdbda;
+}
+#passwordFrame:hover,
+#nickNameFrame:hover,
+#emailFrame:hover,
+#securityCodeFrame:hover,
+#newPasswordFrame:hover,
+#dayOfBirthFrame:hover,
+#monthOfBirthFrame:hover,
+#yearOfBirthFrame:hover,
+#repeatPasswordFrame:hover,
+#searchRankingTableFrame:hover
+{
+    background-color: #DBDBD7;
+    border-radius: 10px;
+    border: 1px solid #555551;
+}
+#passwordFrame[lineInFocus="true"],
+#nickNameFrame[lineInFocus="true"],
+#emailFrame[lineInFocus="true"],
+#securityCodeFrame[lineInFocus="true"],
+#newPasswordFrame[lineInFocus="true"],
+#dayOfBirthFrame[lineInFocus="true"],
+#monthOfBirthFrame[lineInFocus="true"],
+#yearOfBirthFrame[lineInFocus="true"],
+#repeatPasswordFrame[lineInFocus="true"]
+{
+    background-color: #DBDBD7;
+    border-radius: 10px;
+    border: 2px solid #000000;
+}
+#passwordFrame[validInputText="false"],
+#nickNameFrame[validInputText="false"],
+#emailFrame[validInputText="false"],
+#securityCodeFrame[validInputText="false"],
+#newPasswordFrame[validInputText="false"],
+#dayOfBirthFrame[validInputText="false"],
+#monthOfBirthFrame[validInputText="false"],
+#yearOfBirthFrame[validInputText="false"],
+#repeatPasswordFrame[validInputText="false"]
+{
+    background-color: #DBDBD7;
+    border-radius: 10px;
+    border: 1px solid #E0162D;
+}
+
+/******************************************************************************/
+/* ERROR FRAMES */
+
+#logInErrorFrame,
+#securityCodeErrorFrame,
+#emailErrorFrame,
+#ageErrorFrame
+{
+    background-color: #E1D5D5;
+    border: 1px solid #863D47;
+    border-radius: 10px;
+}
+#logInErrorLabel,
+#securityCodeErrorLabel,
+#createNewPasswordInfoLabel,
+#youMustLabel,
+#emailErrorLabel,
+#ageErrorLabel
+{
+    background-color: transparent;
+    color: #000000;
+    font: 11pt;
+}
+#logInErrorLabel a,
+#securityCodeErrorLabel a,
+#createNewPasswordInfoLabel a,
+#youMustLabel a,
+#emailErrorLabel a
+{
+    color: #0F79F0;
+}
+
+/******************************************************************************/
+/* LINE */
+
+#line_1,
+#line_2,
+#line_3,
+#line_4
+{
+    background-color: #B1B1B1;
+    border-radius: 6px;
+}
+
+/******************************************************************************/
+
+
+
+
+/***/
+
+
+
+
+/******************************************************************************/
+/* LABEL - HEADER 1 (giant) */
+
+#welcomeLabel
+{
+    background-color: transparent;
+    color: #000000;
+    font: 900 45pt;
+}
+
+/******************************************************************************/
+/* LABEL - HEADER 2 (big) */
+
+#logInLabel,
+#resetPasswordLabel,
+#checkInboxLabel,
+#createNewPasswordLabel,
+#a_singInLabel,
+#a_singInLabel_2,
+#profileLabel,
+#optionsLabel,
+#aboutLabel,
+#startLabel,
+#newgameLabel,
+#newgameLabel,
+#roundLabel,
+#rankingLabel,
+#individualRankingLabel,
+#victoryLabel,
+#SaliralMenu_2,
+#historywindowLabel
+{
+    background-color: transparent;
+    color: #000000;
+    font: 800 20pt;
+}
+
+/******************************************************************************/
+/* LABEL - HEADER 3 (medium) */
+
+#languageLabel,
+#volumeLabel,
+#themeLabel,
+#howtoplayLabel,
+#rulesLabel,
+#gamemodeLabel,
+#colorselectionLabel,
+#sizeLabel,
+#roundsLabel,
+#playerTurnLabel,
+#gamesLabel,
+#opponentsLabel,
+#resumeGameLabel,
+#restartGameLabel,
+#backToMainManulabel,
+#VolveraJugar,
+#SaliralMenu
+{
+    background-color: transparent;
+    color: #000000;
+    font: 700 15pt;
+}
+
+/******************************************************************************/
+/* LABEL - NORMAL (bold) */
+
+#howtoplay1Label,
+#howtoplay2Label,
+#howtoplay3Label,
+#howtoplay4Label,
+#rules1Label,
+#rules2Label,
+#rules3Label,
+#initializeplayerLabel,
+#typeOfOpponentLabel,
+#player1Label,
+#player2Label,
+#numberplayersLabel,
+#numbergamesLabel,
+#rankingPointsLabel,
+#usernameLabel,
+#puntosAntes,
+#PuntosDespues
+{
+    background-color: transparent;
+    color: #c7c7c7;
+    font: 550 12pt;
+}
+
+/******************************************************************************/
+/* LABEL - NORMAL (basic) */
+
+QLabel,
+#passwordLabel,
+#emailLabel,
+#createNewPasswordInfoLabel,
+#newPasswordLabel,
+#repeatPasswordLabel,
+#nickNameLabel_2,
+#pointsBeforeLabel,
+#pointsAfterLabel
+{
+    background-color: transparent;
+    color: #555555;
+    font: 12pt;
+}
+
+/******************************************************************************/
+/* LABEL - NORMAL (WARNINGS) */
+
+#nickNameWarningLabel,
+#passwordWarningLabel,
+#emailWarningLabel,
+#securityCodeWarningLabel,
+#newPasswordWarningLabel,
+#dayWarningLabel,
+#monthWarningLabel,
+#yearWarningLabel,
+#repeatPasswordWarningLabel,
+#dateOfBirthWarningLabel
+{
+    background-color: transparent;
+    color: #E0162D;
+    font: 11pt;
+}
+
+/******************************************************************************/
+/*** LABEL - LINKS ***/
+
+#forgottenPasswordButton,
+#singInButton,
+#seeProfileButton,
+#SW_logInButton,
+#SW_logInButton_2
+{
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-radius: 7px;
+    color: #0F79F0;
+    font: 11pt;
+    padding: 0px 5px;
+    outline: node;
+}
+#forgottenPasswordButton:focus,
+#singInButton:focus,
+#seeProfileButton:focus
+#SW_logInButton:focus,
+#SW_logInButton_2:focus
+{
+    border: 2px solid #000000;
+}
+
+/******************************************************************************/
+/*** LABEL - PODIUM ***/
+
+#firstPlaceName,
+#secondPlaceName,
+#thirdPlaceName
+{
+    border-radius: 20px;
+    font: 550 18px;
+    padding: 10px;
+}
+
+#firstPlaceName
+{
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,
+    stop:0 #b48634,
+    stop:0.55 #f1dd79,
+    stop:0.98 #d2ad51,
+    stop:1 #c0963c);
+    border: 2px solid #9c7d3e;
+    color: #9c7d3e;
+}
+
+#secondPlaceName
+{
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,
+    stop:0 #686868,
+    stop:0.55 #fcfbfc,
+    stop:0.98 #ababab,
+    stop:1 #5d5d5d);
+    border: 2px solid #B1B1B1;
+    color: #B1B1B1;
+}
+
+#thirdPlaceName
+{
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,
+    stop:0 #b2573a,
+    stop:0.55 #f1b97a,
+    stop:0.98 #ca7748,
+    stop:1 #c1673a);
+    border: 2px solid #97492f;
+    color: #97492f;
+}
+
+/******************************************************************************/
+
+
+
+
+/***/
+
+
+
+
+/******************************************************************************/
+/*** BUTTON - BASE CONFICURATION ***/
+
+QPushButton
+{
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px transparent;
+    padding: 0px;
+    outline: node;
+}
+QPushButton:focus,
+#blueButton:focus,
+#greenButton:focus,
+#pinkButton:focus,
+#orangeButton:focus,
+#lightButton:focus,
+#darkButton:focus
+{
+    border-radius: 10px;
+    border: 2px solid #000000;
+    padding: 0px;
+}
+
+/******************************************************************************/
+/*** BUTTON - COLORED BIG ***/
+
+#logInButton,
+#sendSecurityCodeButton,
+#checkSecurityCodeButton,
+#createNewPasswordButton,
+#SW_continueButton,
+#SW_continueButton_2,
+#SW_createAccountButton,
+#editBirthDayButton,
+#changeBirthDayButton,
+#editEmailButton,
+#changeEmailButton,
+#editPasswordButton,
+#changePasswordButton,
+#startButton,
+#aboutButton,
+#quitButton,
+#newGameButton,
+#guestButton,
+#registerButton,
+#logButton,
+#startGameButton
+{
+    background-color: #26BBFF;
+    border-radius: 7px;
+    border: 2px solid transparent;
+    color: #141418;
+    font: 600 13pt;
+    padding: 12px;
+    outline: node;
+}
+#logInButton:enabled,
+#sendSecurityCodeButton:enabled,
+#checkSecurityCodeButton:enabled,
+#createNewPasswordButton:enabled,
+#SW_continueButton:enabled,
+#SW_continueButton_2:enabled,
+#SW_createAccountButton:enabled,
+#editBirthDayButton:enabled,
+#changeBirthDayButton:enabled,
+#editEmailButton:enabled,
+#changeEmailButton:enabled,
+#editPasswordButton:enabled,
+#changePasswordButton:enabled,
+#startButton:enabled,
+#aboutButton:enabled,
+#quitButton:enabled,
+#newGameButton:enabled,
+#guestButton:enabled,
+#registerButton:enabled,
+#logButton:enabled,
+#startGameButton:enabled
+{
+    background-color: #26BBFF;
+}
+#logInButton:hover,
+#sendSecurityCodeButton:hover,
+#checkSecurityCodeButton:hover,
+#createNewPasswordButton:hover,
+#SW_continueButton:hover,
+#SW_continueButton_2:hover,
+#SW_createAccountButton:hover,
+#editBirthDayButton:hover,
+#changeBirthDayButton:hover,
+#editEmailButton:hover,
+#changeEmailButton:hover,
+#editPasswordButton:hover,
+#changePasswordButton:hover,
+#startButton:hover,
+#aboutButton:hover,
+#quitButton:hover,
+#newGameButton:hover,
+#guestButton:hover,
+#registerButton:hover,
+#logButton:hover,
+#startGameButton:hover
+{
+    background-color: #52C8FF;
+}
+#logInButton:disabled,
+#sendSecurityCodeButton:disabled,
+#checkSecurityCodeButton:disabled,
+#createNewPasswordButton:disabled,
+#SW_continueButton:disabled,
+#SW_continueButton_2:disabled,
+#SW_createAccountButton:disabled,
+#editBirthDayButton:disabled,
+#changeBirthDayButton:disabled,
+#editEmailButton:disabled,
+#changeEmailButton:disabled,
+#editPasswordButton:disabled,
+#changePasswordButton:disabled,
+#startButton:disabled,
+#aboutButton:disabled,
+#quitButton:disabled,
+#newGameButton:disabled,
+#guestButton:disabled,
+#registerButton:disabled,
+#logButton:disabled,
+#startGameButton:disabled
+{
+    background-color: #BBBBB7;
+}
+#logInButton:focus,
+#sendSecurityCodeButton:focus,
+#checkSecurityCodeButton:focus,
+#createNewPasswordButton:focus,
+#SW_continueButton:focus,
+#SW_continueButton_2:focus,
+#SW_createAccountButton:focus,
+#editBirthDayButton:focus,
+#changeBirthDayButton:focus,
+#editEmailButton:focus,
+#changeEmailButton:focus,
+#editPasswordButton:focus,
+#changePasswordButton:focus,
+#startButton:focus,
+#aboutButton:focus,
+#quitButton:focus,
+#newGameButton:focus,
+#guestButton:focus,
+#registerButton:focus,
+#logButton:focus,
+#startGameButton:focus
+{
+    border: 2px solid #000000;
+}
+
+/******************************************************************************/
+/*** BUTTON - GREY MEDIUM ***/
+
+#exitButton,
+#switchAccountButton,
+#logoutButton,
+#changeThemeButton,
+#configButton,
+#helpButton,
+#musicButton,
+#historyButton,
+#rankingButton,
+#optionsButton,
+#PvsPButton,
+#PvsCPUButton,
+#NGW_guestButton,
+#NGW_logInButton,
+#NGW_registerButton
+{
+    border-radius: 7px;
+    border: 2px solid transparent;
+    color: #080808;
+    font: 11pt;
+    padding: 5px;
+    outline: node;
+
+}
+#exitButton:enabled,
+#switchAccountButton:enabled,
+#logoutButton:enabled,
+#changeThemeButton:enabled,
+#configButton:enabled,
+#helpButton:enabled,
+#musicButton:enabled,
+#historyButton:enabled,
+#rankingButton:enabled,
+#optionsButton:enabled,
+#PvsPButton:enabled,
+#PvsCPUButton:enabled,
+#NGW_guestButton:enabled,
+#NGW_logInButton:enabled,
+#NGW_registerButton:enabled
+{
+    background-color: #C2C2C2;
+}
+#exitButton:hover,
+#switchAccountButton:hover,
+#logoutButton:hover,
+#changeThemeButton:hover,
+#configButton:hover,
+#helpButton:hover,
+#musicButton:hover,
+#historyButton:hover,
+#rankingButton:hover,
+#optionsButton:hover,
+#PvsPButton:hover,
+#PvsCPUButton:hover,
+#NGW_guestButton:hover,
+#NGW_logInButton:hover,
+#NGW_registerButton:hover
+{
+    background-color: #B7B7B7;
+}
+#exitButton:pressed,
+#switchAccountButton:pressed,
+#logoutButton:pressed,
+#changeThemeButton:pressed,
+#configButton:pressed,
+#helpButton:pressed,
+#PvsPButton:pressed,
+#PvsCPUButton:pressed,
+#NGW_guestButton:pressed,
+#NGW_logInButton:pressed,
+#NGW_registerButton:pressed
+{
+    background-color: #B1B1B1;
+}
+#musicButton:disabled,
+#historyButton:disabled,
+#rankingButton:disabled,
+#optionsButton:disabled,
+#PvsPButton:disabled,
+#PvsCPUButton:disabled,
+#NGW_guestButton:disabled,
+#NGW_logInButton:disabled,
+#NGW_registerButton:disabled
+{
+    background-color: #d3d3d3;
+    color: #676767;
+}
+#exitButton:focus,
+#switchAccountButton:focus,
+#logoutButton:focus,
+#changeThemeButton:focus,
+#configButton:focus,
+#helpButton:focus,
+#musicButton:focus,
+#historyButton:focus,
+#rankingButton:focus,
+#optionsButton:focus,
+#PvsPButton:focus,
+#PvsCPUButton:focus,
+#NGW_guestButton:focus,
+#NGW_logInButton:focus,
+#NGW_registerButton:focus
+{
+    border: 2px solid #000000;
+}
+
+/******************************************************************************/
+/*** BUTON - AVATAR TYPE ***/
+
+#avatarButton:focus
+{
+    border-radius: 75px;
+    border: 2px solid #000000;
+    padding: 0px;
+}
+#avatarButton:focus,
+#avatarButton:hover 
+{
+    icon: url(../../media/images/icons/light-theme/editAvatar.png);
+}
+
+/******************************************************************************/
+/*** BUTTON - THEMES ***/
+
+#blueButton,
+#greenButton,
+#pinkButton,
+#orangeButton,
+#lightButton,
+#darkButton
+{
+    border-radius: 10px;
+    background-color: #B1B1B1;
+    border: 1px transparent;
+    color: #999999;
+    font: 600 11pt;
+    padding: 0px;
+    outline: none;
+}
+
+#blueButton:checked
+{
+    background-color: #0F79F0;
+    color: #083567;
+}
+#greenButton:checked
+{
+    background-color: #11c120;
+    color: #074a0d;
+}
+#pinkButton:checked
+{
+    background-color: #ef8dd0;
+    color: #55324a;
+}
+#orangeButton:checked
+{
+    background-color: #f1933b;
+    color: #5f3916;
+}
+#lightButton:checked
+{
+    background-color: #ffffff;
+    color: #575757;
+}
+#darkButton:checked
+{
+    background-color: #000000;
+    color: #8b8b8b;
+}
+
+/******************************************************************************/
+
+
+
+
+/***/
+
+
+
+
+/******************************************************************************/
+/*** LINE EDIT, COMBO BOX & DATE EDIT ***/
+
+QLineEdit
+{
+    background-color: transparent;
+    border: 1px transparent;
+    color: #000000;
+    padding: 0px;
+}
+QLineEdit:disabled,
+QComboBox:disabled
+{
+    background-color: transparent;
+    border: 1px transparent;
+    color: #999999;
+    padding: 0px;
+}
+QComboBox
+{
+    background-color: transparent;
+    border: 1px transparent;
+    color: #000000;
+    padding: 0px;
+    selection-background-color: #0F79F0;
+    outline: none;
+}
+QComboBox::drop-down
+{
+    width: 25px;
+}
+QComboBox::down-arrow
+{
+    image: url(../../media/images/icons/light-theme/down-arrow.png);
+    width: 25px;
+    height: 25px;
+}
+
+/******************************************************************************/
+/*** DATE EDIT  ***/
+
+QDateEdit
+{
+    background-color: #dbdbd7;
+    color: #000000;
+    /*
+    border-radius: 5px;
+    border: 1px solid #C3C3C0; 
+    padding: 5px;
+    */
+    font: 14px; 
+}
+
+/******************************************************************************/
+/*** ABSTRACT ITEM VIEW  ***/
+
+QAbstractItemView
+{
+    background-color: #DBDBD7;
+    border: 1px transparent;
+    color: #000000;
+    outline: none;
+}
+
+/******************************************************************************/
+/*** RADIO BUTTONS  ***/
+
+QRadioButton
+{
+    color: #000000;
+}
+
+/******************************************************************************/
+/*** TOOL TIP  ***/
+
+QToolTip
+{
+    background-color: #DBDBD7;
+    border-style: outset;
+    border-radius: 4px;
+    border: 1px solid #C3C3C0;
+    color: #000000;
+    font: 10pt;
+    padding: 5px;
+    margin: 0px;
+}
+
+/****************************************************************************/
+/*** TABLE WIDGET  ***/
+
+QTableWidget,
+QGraphicsView
+{
+    background-color: #d4d4d4;
+    border: 1px solid #c3c3c0;
+    gridline-color: #c3c3c0;
+    font: 14px;
+    color: #000000;
+}
+
+QTableWidget::item
+{
+    padding: 5px;
+}
+
+QTableWidget::item:hover
+{
+    background-color: #cacaca;
+    color: #000000;
+}
+
+QTableWidget QHeaderView::section
+{
+    background-color: #dfdfdc;
+    color: #000000;
+    padding: 5px 5px;
+    border: 1px solid #c3c3c0;
+    font: 600 16px;
+}
+
+QTableCornerButton::section
+{
+    background-color: #dfdfdc;
+    border: 1px solid #c3c3c0;
+}
+
+/******************************************************************************/
+
+
+
+
+/***/
+
+
+
+
+/******************************************************************************/
+/*** ICON IMAGES ***/
+
+#changeThemeButton
+{
+    icon: url(../../media/images/icons/light-theme/theme.png);
+}
+#configButton
+{
+    icon: url(../../media/images/icons/light-theme/settings.png);
+}
+#helpButton
+{
+    icon: url(../../media/images/icons/light-theme/help.png);
+}
+#logoutButton
+{
+    icon: url(../../media/images/icons/light-theme/logout.png);
+}
+#musicButton
+{
+    icon: url(../../media/images/icons/light-theme/turn-on-volume.png);
+}
+#musicButton:checked
+{
+    icon: url(../../media/images/icons/light-theme/turn-off-volume.png);
+}
+#historyButton
+{
+    icon: url(../../media/images/icons/light-theme/history.png);
+}
+#rankingButton
+{
+    icon: url(../../media/images/icons/light-theme/ranking.png);
+}
+#optionsButton
+{
+    icon: url(../../media/images/icons/light-theme/settings.png);
+}
+#pauseButton
+{
+    icon: url(../../media/images/icons/light-theme/pause.png);
+}
+#continueButton
+{
+    icon: url(../../media/images/icons/light-theme/play.png);
+}
+#GBW_exitButton,
+#exitButton
+{
+    icon: url(../../media/images/icons/light-theme/exit.png);
+}
+#resetButton_pauseView,
+#resetButton_victoryView
+{
+    icon: url(../../media/images/icons/light-theme/reset.png);
+}
+#mainMenuButton_pauseView,
+#mainMenuButton_victoryView
+{
+    icon: url(../../media/images/icons/light-theme/home.png);
+}
+
+#backButton,
+#a_backButton,
+#b_backButton,
+#c_backButton,
+#d_backButton
+{
+    icon: url(../../media/images/icons/light-theme/back.png);
+}
+#backButton:disabled,
+#a_backButton:disabled,
+#b_backButton:disabled,
+#c_backButton:disabled,
+#d_backButton:disabled
+{
+    icon: none;
+}
+#showPasswordButton,
+#showNewPasswordButton,
+#showRepeatPasswordButton
+{
+    icon: url(../../media/images/icons/light-theme/showPassword.png);
+}
+#showPasswordButton:checked,
+#showNewPasswordButton:checked,
+#showRepeatPasswordButton:checked
+{
+    icon: url(../../media/images/icons/light-theme/hidePassword.png);
+}
+#nickNameInfoToolTip,
+#passwordInfoToolTip
+{
+    icon: url(../../media/images/icons/light-theme/info.png);
+}
+#editBirthDayButton,
+#editEmailButton,
+#editPasswordButton
+{
+    icon: url(../../media/images/icons/light-theme/edit.png);
+}
+#editBirthDayButton:checked,
+#editEmailButton:checked,
+#editPasswordButton:checked
+{
+    icon: url(../../media/images/icons/light-theme/cancel.png);
+}
+#changeBirthDayButton,
+#changeEmailButton,
+#changePasswordButton
+{
+    icon: url(../../media/images/icons/light-theme/ok.png);
+}
+#searchButton
+{
+    icon: url(../../media/images/icons/light-theme/search.png);
+}
+
+/******************************************************************************/
+
+
+
+
+/***/
+
+
+
+
+/******************************************************************************/
+/* PROFILESIDEMENU */
+
+#profileSideMenuFrame
+{
+    background-color: #C2C2C2;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+}
+
+#nickNameLabel
+{
+    background-color: transparent;
+    color: #080808;
+    font: 500 11pt;
+}
+#pointsLabel
+{
+    background-color: transparent;
+    color: #444444;
+    font: 200 11pt;
+}
+#userAvatar
+{
+    background-color: transparent;
+}
+
+#seeProfileButton
+{
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-radius: 7px;
+    color: #0F79F0;
+    font: 11pt;
+    padding: 0px 5px;
+    outline: node;
+}
+#seeProfileButton:focus
+{
+    border: 2px solid #000000;
+}
+
+/******************************************************************************/
