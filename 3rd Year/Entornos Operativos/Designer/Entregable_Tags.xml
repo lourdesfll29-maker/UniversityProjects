@@ -1,0 +1,307 @@
+<Tags locale="en">
+   <Tag name="Trabajo_Asignatura" path="" type="Folder"/>
+   <Tag name="Angular_Average_Speed" path="Trabajo_Asignatura" type="DB">
+      <Property name="Value">-0.012538621879230745</Property>
+      <Property name="DataType">5</Property>
+      <Property name="ScanClass">Default Historical</Property>
+      <Property name="PrimaryHistoryProvider">PostgreSQL</Property>
+   </Tag>
+   <Tag name="Angular_Max_Speed" path="Trabajo_Asignatura" type="DB">
+      <Property name="Value">2.9794722980935813</Property>
+      <Property name="DataType">5</Property>
+      <Property name="ScanClass">Default Historical</Property>
+      <Property name="PrimaryHistoryProvider">PostgreSQL</Property>
+   </Tag>
+   <Tag name="Angular_Min_Speed" path="Trabajo_Asignatura" type="DB">
+      <Property name="Value">-2.9967642423180045</Property>
+      <Property name="DataType">5</Property>
+      <Property name="ScanClass">Default Historical</Property>
+      <Property name="PrimaryHistoryProvider">PostgreSQL</Property>
+   </Tag>
+   <Tag name="Angular_Speed" path="Trabajo_Asignatura" type="OPC">
+      <Property name="Value">-1.3923145806328516</Property>
+      <Property name="DataType">5</Property>
+      <Property name="OPCServer">OPC-UA Server (Entregable)</Property>
+      <Property name="OPCItemPath">ns=2;i=10</Property>
+      <Property name="ScanClass">Default Historical</Property>
+      <Property name="HistoryEnabled">true</Property>
+      <Property name="PrimaryHistoryProvider">PostgreSQL</Property>
+      <EventScripts>
+         <Event id="valueChanged" enabled="true">	# Añadimos a Angular_Suma el nuevo valor obtenido
+	angular_value = currentValue.value
+	suma_path = system.tag.read(&quot;Trabajo_Asignatura/Angular_Suma&quot;)
+	suma_value = suma_path.value
+	suma_vel = suma_value + angular_value
+	system.tag.write(&quot;Trabajo_Asignatura/Angular_Suma&quot;, suma_vel)
+	
+	# Calculamos la velocidad media &quot;Angular_Average_Speed&quot;
+	# Angular_Suma / Counter_Vel (suma de velocidades entre número de velocidades obtenidas)
+	suma_value = suma_path.value
+	counter_path = system.tag.read(&quot;Trabajo_Asignatura/Counter_Vel&quot;)
+	counter_value = counter_path.value
+	average_vel = suma_value / counter_value
+	system.tag.write(&quot;Trabajo_Asignatura/Angular_Average_Speed&quot;, average_vel)
+	
+	# Calculamos la velocidad máxima &quot;Angular_Max_Speed&quot;
+	max_path = system.tag.read(&quot;Trabajo_Asignatura/Angular_Max_Speed&quot;)
+	max_value = max_path.value
+	if angular_value &gt; max_value :
+			max_vel = angular_value
+			system.tag.write(&quot;Trabajo_Asignatura/Angular_Max_Speed&quot;, max_vel)
+		
+	# Calculamos la velocidad mínima &quot;Angular_Min_Speed&quot;
+	min_path = system.tag.read(&quot;Trabajo_Asignatura/Angular_Min_Speed&quot;)
+	min_value = min_path.value			
+	if angular_value &lt; min_value :
+		min_vel = angular_value
+		system.tag.write(&quot;Trabajo_Asignatura/Angular_Min_Speed&quot;, min_vel)</Event>
+      </EventScripts>
+   </Tag>
+   <Tag name="Angular_Suma" path="Trabajo_Asignatura" type="DB">
+      <Property name="Value">-30.231144902863566</Property>
+      <Property name="DataType">5</Property>
+      <Property name="ScanClass">Default Historical</Property>
+      <Property name="PrimaryHistoryProvider">PostgreSQL</Property>
+   </Tag>
+   <Tag name="Counter_Pos" path="Trabajo_Asignatura" type="OPC">
+      <Property name="Value">2,283</Property>
+      <Property name="DataType">2</Property>
+      <Property name="OPCServer">OPC-UA Server (Entregable)</Property>
+      <Property name="OPCItemPath">ns=2;i=5</Property>
+      <Property name="ScanClass">Default Historical</Property>
+      <Property name="HistoryEnabled">true</Property>
+      <Property name="PrimaryHistoryProvider">PostgreSQL</Property>
+   </Tag>
+   <Tag name="Counter_Vel" path="Trabajo_Asignatura" type="OPC">
+      <Property name="Value">2,300</Property>
+      <Property name="DataType">2</Property>
+      <Property name="OPCServer">OPC-UA Server (Entregable)</Property>
+      <Property name="OPCItemPath">ns=2;i=12</Property>
+      <Property name="ScanClass">Default Historical</Property>
+      <Property name="HistoryEnabled">true</Property>
+      <Property name="PrimaryHistoryProvider">PostgreSQL</Property>
+      <EventScripts>
+         <Event id="valueChanged" enabled="true">	# Si el valor del contador se reinicia, se reinician todas las memory tags
+	if previousValue.value &gt; currentValue.value:
+		system.tag.write(&quot;Trabajo_Asignatura/Distance&quot;, 0.0)
+		system.tag.write(&quot;Trabajo_Asignatura/Angular_Suma&quot;, 0)
+		system.tag.write(&quot;Trabajo_Asignatura/Angular_Average_Speed&quot;, 0)
+		system.tag.write(&quot;Trabajo_Asignatura/Angular_Max_Speed&quot;, -10)
+		system.tag.write(&quot;Trabajo_Asignatura/Angular_Min_Speed&quot;, 10)
+		system.tag.write(&quot;Trabajo_Asignatura/Linear_Suma&quot;, 0)
+		system.tag.write(&quot;Trabajo_Asignatura/Linear_Average_Speed&quot;, 0)
+		system.tag.write(&quot;Trabajo_Asignatura/Linear_Max_Speed&quot;, -10)
+		system.tag.write(&quot;Trabajo_Asignatura/Linear_Min_Speed&quot;, 10)
+</Event>
+      </EventScripts>
+   </Tag>
+   <Tag name="Distance" path="Trabajo_Asignatura" type="DB">
+      <Property name="Value">11,634.454001033264</Property>
+      <Property name="DataType">5</Property>
+      <Property name="ScanClass">Default Historical</Property>
+      <Property name="PrimaryHistoryProvider">PostgreSQL</Property>
+   </Tag>
+   <Tag name="Last_Angular" path="Trabajo_Asignatura" type="OPC">
+      <Property name="Value">-1.4218045233571868</Property>
+      <Property name="DataType">5</Property>
+      <Property name="OPCServer">OPC-UA Server (Entregable)</Property>
+      <Property name="OPCItemPath">ns=2;i=14</Property>
+      <Property name="ScanClass">Default Historical</Property>
+      <Property name="HistoryEnabled">true</Property>
+      <Property name="PrimaryHistoryProvider">PostgreSQL</Property>
+   </Tag>
+   <Tag name="Last_Linear" path="Trabajo_Asignatura" type="OPC">
+      <Property name="Value">4.926351285634042</Property>
+      <Property name="DataType">5</Property>
+      <Property name="OPCServer">OPC-UA Server (Entregable)</Property>
+      <Property name="OPCItemPath">ns=2;i=13</Property>
+      <Property name="ScanClass">Default Historical</Property>
+      <Property name="HistoryEnabled">true</Property>
+      <Property name="PrimaryHistoryProvider">PostgreSQL</Property>
+   </Tag>
+   <Tag name="Last_Orientation" path="Trabajo_Asignatura" type="OPC">
+      <Property name="Value">2.2913565635681152</Property>
+      <Property name="DataType">5</Property>
+      <Property name="OPCServer">OPC-UA Server (Entregable)</Property>
+      <Property name="OPCItemPath">ns=2;i=7</Property>
+      <Property name="ScanClass">Default Historical</Property>
+      <Property name="HistoryEnabled">true</Property>
+      <Property name="PrimaryHistoryProvider">PostgreSQL</Property>
+   </Tag>
+   <Tag name="Last_Pos" path="Trabajo_Asignatura" type="OPC">
+      <Property name="Value">
+         <Dataset>
+            <columns>
+               <col name="VALUES" datatype="Float8"/>
+            </columns>
+            <rows>
+               <row>
+                  <cell>0</cell>
+               </row>
+               <row>
+                  <cell>11.088889122009277</cell>
+               </row>
+            </rows>
+         </Dataset>
+      </Property>
+      <Property name="DataType">13</Property>
+      <Property name="OPCServer">OPC-UA Server (Entregable)</Property>
+      <Property name="OPCItemPath">ns=2;i=6</Property>
+      <Property name="ScanClass">Default Historical</Property>
+      <Property name="HistoryEnabled">true</Property>
+      <Property name="PrimaryHistoryProvider">PostgreSQL</Property>
+      <EventScripts>
+         <Event id="valueChanged" enabled="true">	# Leemos la posición y la dividimos en dos tags distintos
+	position = currentValue.value
+	x = position[0]
+	y = position[1]
+	system.tag.write(&quot;Trabajo_Asignatura/last_X&quot;, x)
+	system.tag.write(&quot;Trabajo_Asignatura/last_Y&quot;, y)
+</Event>
+      </EventScripts>
+   </Tag>
+   <Tag name="last_X" path="Trabajo_Asignatura" type="DB">
+      <Property name="Value">0</Property>
+      <Property name="DataType">5</Property>
+      <Property name="ScanClass">Default Historical</Property>
+      <Property name="HistoryEnabled">true</Property>
+      <Property name="PrimaryHistoryProvider">PostgreSQL</Property>
+   </Tag>
+   <Tag name="last_Y" path="Trabajo_Asignatura" type="DB">
+      <Property name="Value">11.088889122009277</Property>
+      <Property name="DataType">5</Property>
+      <Property name="ScanClass">Default Historical</Property>
+      <Property name="HistoryEnabled">true</Property>
+      <Property name="PrimaryHistoryProvider">PostgreSQL</Property>
+   </Tag>
+   <Tag name="Linear_Average_Speed" path="Trabajo_Asignatura" type="DB">
+      <Property name="Value">0.7849057893760574</Property>
+      <Property name="DataType">5</Property>
+      <Property name="ScanClass">Default Historical</Property>
+      <Property name="PrimaryHistoryProvider">PostgreSQL</Property>
+   </Tag>
+   <Tag name="Linear_Max_Speed" path="Trabajo_Asignatura" type="DB">
+      <Property name="Value">4.9811851573212325</Property>
+      <Property name="DataType">5</Property>
+      <Property name="ScanClass">Default Historical</Property>
+      <Property name="PrimaryHistoryProvider">PostgreSQL</Property>
+   </Tag>
+   <Tag name="Linear_Min_Speed" path="Trabajo_Asignatura" type="DB">
+      <Property name="Value">0.0006375308860417928</Property>
+      <Property name="DataType">5</Property>
+      <Property name="ScanClass">Default Historical</Property>
+      <Property name="PrimaryHistoryProvider">PostgreSQL</Property>
+   </Tag>
+   <Tag name="Linear_Speed" path="Trabajo_Asignatura" type="OPC">
+      <Property name="Value">3.017199169694928</Property>
+      <Property name="DataType">5</Property>
+      <Property name="OPCServer">OPC-UA Server (Entregable)</Property>
+      <Property name="OPCItemPath">ns=2;i=9</Property>
+      <Property name="ScanClass">Default Historical</Property>
+      <Property name="HistoryEnabled">true</Property>
+      <Property name="PrimaryHistoryProvider">PostgreSQL</Property>
+      <EventScripts>
+         <Event id="valueChanged" enabled="true">	# Añadimos a Linear_Suma el nuevo valor obtenido
+	linear_value = currentValue.value
+	suma_path = system.tag.read(&quot;Trabajo_Asignatura/Linear_Suma&quot;)
+	suma_value = suma_path.value
+	suma_vel = suma_value + linear_value
+	system.tag.write(&quot;Trabajo_Asignatura/Linear_Suma&quot;, suma_vel)
+	
+	# Calculamos la velocidad media &quot;Linear_Average_Speed&quot;
+	# Angular_Suma / Counter_Vel (suma de velocidades entre número de velocidades obtenidas)
+	suma_value = suma_path.value
+	counter_path = system.tag.read(&quot;Trabajo_Asignatura/Counter_Vel&quot;)
+	counter_value = counter_path.value
+	average_vel = suma_value / counter_value
+	system.tag.write(&quot;Trabajo_Asignatura/Linear_Average_Speed&quot;, average_vel)
+	
+	# Calculamos la velocidad máxima &quot;Linear_Max_Speed&quot;
+	max_path = system.tag.read(&quot;Trabajo_Asignatura/Linear_Max_Speed&quot;)
+	max_value = max_path.value
+	if linear_value &gt; max_value :
+			max_vel = linear_value
+			system.tag.write(&quot;Trabajo_Asignatura/Linear_Max_Speed&quot;, max_vel)
+		
+	# Calculamos la velocidad mínima &quot;Linear_Min_Speed&quot;
+	min_path = system.tag.read(&quot;Trabajo_Asignatura/Linear_Min_Speed&quot;)
+	min_value = min_path.value			
+	if linear_value &lt; min_value :
+		min_vel = linear_value
+		system.tag.write(&quot;Trabajo_Asignatura/Linear_Min_Speed&quot;, min_vel)</Event>
+      </EventScripts>
+   </Tag>
+   <Tag name="Linear_Suma" path="Trabajo_Asignatura" type="DB">
+      <Property name="Value">1,808.3005147346269</Property>
+      <Property name="DataType">5</Property>
+      <Property name="ScanClass">Default Historical</Property>
+      <Property name="PrimaryHistoryProvider">PostgreSQL</Property>
+   </Tag>
+   <Tag name="Position" path="Trabajo_Asignatura" type="OPC">
+      <Property name="Value">
+         <Dataset>
+            <columns>
+               <col name="VALUES" datatype="Float8"/>
+            </columns>
+            <rows>
+               <row>
+                  <cell>0.5217370390892029</cell>
+               </row>
+               <row>
+                  <cell>11.088889122009277</cell>
+               </row>
+            </rows>
+         </Dataset>
+      </Property>
+      <Property name="DataType">13</Property>
+      <Property name="OPCServer">OPC-UA Server (Entregable)</Property>
+      <Property name="OPCItemPath">ns=2;i=2</Property>
+      <Property name="ScanClass">Default Historical</Property>
+      <Property name="HistoryEnabled">true</Property>
+      <Property name="PrimaryHistoryProvider">PostgreSQL</Property>
+      <EventScripts>
+         <Event id="valueChanged" enabled="true">	import math	
+	
+	# Leemos la posición y la dividimos en dos tags distintos
+	position = currentValue.value
+	x = position[0]
+	y = position[1]
+	system.tag.write(&quot;Trabajo_Asignatura/X&quot;, x)
+	system.tag.write(&quot;Trabajo_Asignatura/Y&quot;, y)
+	
+		
+	# Calculamos la distancia recorrida
+	distance_path = system.tag.read(&quot;Trabajo_Asignatura/Distance&quot;)
+	distance_value = distance_path.value
+	last_position_path = system.tag.read(&quot;Trabajo_Asignatura/Last_Pos&quot;)
+	last_position_value = last_position_path.value
+	last_x = last_position_value[0]
+	last_y = last_position_value[1]
+	distance_total = distance_value + (math.sqrt((x + last_x)**2 + (y + last_y)**2))
+	system.tag.write(&quot;Trabajo_Asignatura/Distance&quot;, distance_total)</Event>
+      </EventScripts>
+   </Tag>
+   <Tag name="Theta" path="Trabajo_Asignatura" type="OPC">
+      <Property name="Value">0.8732764720916748</Property>
+      <Property name="DataType">5</Property>
+      <Property name="OPCServer">OPC-UA Server (Entregable)</Property>
+      <Property name="OPCItemPath">ns=2;i=3</Property>
+      <Property name="ScanClass">Default Historical</Property>
+      <Property name="HistoryEnabled">true</Property>
+      <Property name="PrimaryHistoryProvider">PostgreSQL</Property>
+   </Tag>
+   <Tag name="X" path="Trabajo_Asignatura" type="DB">
+      <Property name="Value">0.5217370390892029</Property>
+      <Property name="DataType">5</Property>
+      <Property name="ScanClass">Default Historical</Property>
+      <Property name="HistoryEnabled">true</Property>
+      <Property name="PrimaryHistoryProvider">PostgreSQL</Property>
+   </Tag>
+   <Tag name="Y" path="Trabajo_Asignatura" type="DB">
+      <Property name="Value">11.088889122009277</Property>
+      <Property name="DataType">5</Property>
+      <Property name="ScanClass">Default Historical</Property>
+      <Property name="HistoryEnabled">true</Property>
+      <Property name="PrimaryHistoryProvider">PostgreSQL</Property>
+   </Tag>
+</Tags>
