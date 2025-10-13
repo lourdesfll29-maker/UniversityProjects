@@ -1,0 +1,16 @@
+SERVER (ENV pyjabber)
+pyjabber
+
+MANAGER (ENV pygomas)
+pygomas manager -j m@localhost -sj s@localhost -m map_01 -np 20
+
+CODE (ENV pygomas)
+pygomas run -g EOB.json 
+(desde donde esté el .json y los .asl, es decir cd "ruta/EOB_Entrega2")
+
+VISUAL (ENV pygomas)
+pygomas render
+
+OTROS
+incluir el manager.py y bditroop.py modificados para que el agente "sniper"
+tenga mayor potencia de disparo

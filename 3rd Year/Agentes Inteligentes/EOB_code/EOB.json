@@ -1,0 +1,60 @@
+{
+    "host": "localhost",
+    "manager": "m",
+    "manager_password": "secret",
+    "service": "s",
+    "service_password": "secret",
+    "axis": [
+		{
+            "rank": "EOB_behavior.BDISoldierBehavior",
+            "name": "soldier_EOB",
+            "password": "secret",
+            "amount": 4,
+            "asl": "bdisoldier_EOB.asl"
+        },
+        {
+            "rank": "EOB_behavior.BDISniperBehavior",
+            "name": "sniper_EOB",
+            "password": "secret",
+            "amount": 1,
+            "asl": "bdisniper_EOB.asl"
+        },
+        {
+            "rank": "EOB_behavior.BDIMedicBehavior",
+            "name": "medic_EOB",
+            "password": "secret",
+            "amount": 3,
+            "asl": "bdimedic_EOB.asl"
+        },
+         {
+            "rank": "EOB_behavior.BDIFieldOpBehavior",
+            "name": "fielop_EOB",
+            "password": "secret",
+            "amount": 2,
+            "asl": "bdifieldop_EOB.asl"
+        }
+    ],
+     "allied": [
+		{
+            "rank": "BDISoldier",
+            "name": "soldier_allied",
+            "password": "secret",
+            "amount": 5,
+            "asl": "bdisoldier.asl"
+        },
+        {
+            "rank": "BDIMedic",
+            "name": "medic_allied",
+            "password": "secret",
+            "amount": 3,
+            "asl": "bdimedic.asl"
+        },
+         {
+            "rank": "BDIFieldOp",
+            "name": "fieldop_allied",
+            "password": "secret",
+            "amount": 2,
+            "asl": "bdifieldop.asl"
+        }
+   ]
+  }
