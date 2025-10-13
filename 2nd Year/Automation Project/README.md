@@ -6,7 +6,7 @@ Este proyecto se centra en la automatización de la preparación de pedidos en u
 
 ## La Propuesta
 
-La propuesta se divide en varias fases, desde el análisis y definición inicial hasta la documentación final y la presentación en la feria de proyectos.
+La propuesta se divide en varias fases, desde el análisis y definición inicial hasta la programación y simulación del sistema.
 
 ### Fase 1: Análisis y Definición
 
@@ -30,11 +30,11 @@ La propuesta se divide en varias fases, desde el análisis y definición inicial
 * **Programa de Cálculo de Posiciones con APR:** Se desarrolla un programa para calcular las posiciones de los elementos mediante la tecnología APR (Augmented Reality).
 * **Simulación en RoboDK:** Se simula el funcionamiento del sistema en el software RoboDK para validar su correcto funcionamiento.
 
-### Fase 4: Documentación y Feria de Proyectos
+## Documentación y Entregables
 
 * **Presupuesto Técnico:** Se elabora un presupuesto detallado con los costes del proyecto.
 
-#### Descargables
+### Descargables
 
 * [Memoria Técnica del Proyecto](URL_DEL_PDF_MEMORIA_TECNICA)
 * [Presentación del Proyecto](URL_DEL_PDF_PRESENTACION)
